@@ -1,0 +1,7 @@
+Adentro del trade sos otra persona. Por eso el stop se decide afuera.
+
+En este carrusel: qué es el stop, por qué va antes, y cómo medir el riesgo en R para que cada trade se pueda comparar con el anterior.
+
+Guardalo y leelo antes de abrir la plataforma.
+
+#trading #gestiondelriesgo #futuros #psicotrading #tradingargentina

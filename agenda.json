@@ -3,5 +3,9 @@
   {"fecha": "2026-11-24", "carpeta": "semana1", "id": "2-martes", "laminas": 7},
   {"fecha": "2026-11-25", "carpeta": "semana1", "id": "3-miercoles", "laminas": 7},
   {"fecha": "2026-11-26", "carpeta": "semana1", "id": "4-jueves", "laminas": 7},
-  {"fecha": "2026-11-27", "carpeta": "semana1", "id": "5-viernes", "laminas": 7}
+  {"fecha": "2026-11-27", "carpeta": "semana1", "id": "5-viernes", "laminas": 7},
+  {"fecha": "2026-11-30", "carpeta": "semana2", "id": "s2-1-lunes", "laminas": 7},
+  {"fecha": "2026-12-01", "carpeta": "semana2", "id": "s2-2-martes", "laminas": 7},
+  {"fecha": "2026-12-02", "carpeta": "semana2", "id": "s2-3-miercoles", "laminas": 7},
+  {"fecha": "2026-12-03", "carpeta": "semana2", "id": "s2-4-jueves", "laminas": 7}
 ]

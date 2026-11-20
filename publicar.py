@@ -58,7 +58,7 @@ def main():
     agenda = json.load(open(os.path.join(AQUI, "agenda.json"), encoding="utf-8"))
     if len(sys.argv) > 2 and sys.argv[1] == "--prueba":
         item = next(a for a in agenda if a["id"] == sys.argv[2])
-        print("Prueba OK, carrusel armado y listo (sin publicar):", armar(item)); return
+        print("Prueba OK, publicación armada y lista (sin publicar):", armar(item)); return
     tipo = sys.argv[sys.argv.index("--tipo") + 1] if "--tipo" in sys.argv else "carrusel"
     hoy = (datetime.datetime.utcnow() - datetime.timedelta(hours=3)).date().isoformat()
     hecho_p = os.path.join(AQUI, "publicado.json")

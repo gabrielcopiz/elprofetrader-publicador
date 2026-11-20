@@ -1,7 +1,8 @@
 name: Publicar en Instagram
 on:
   schedule:
-    - cron: "0 22 * * *"   # 19:00 hora Argentina
+    - cron: "0 22 * * *"   # 19:00 hora Argentina: carruseles
+    - cron: "30 15 * * *"  # 12:30 hora Argentina: reels
   workflow_dispatch:
     inputs:
       planilla_prueba:
@@ -28,7 +29,7 @@ jobs:
         if: ${{ inputs.planilla_prueba != '' }}
         with: { name: planilla-prueba, path: publicaciones/planillas }
       - name: Planilla del viernes (con los trades reales del diario)
-        if: ${{ github.event_name == 'schedule' }}
+        if: ${{ github.event_name == 'schedule' && github.event.schedule == '0 22 * * *' }}
         env:
           DIARIO_KEY: ${{ secrets.DIARIO_KEY }}
         run: |
@@ -46,7 +47,8 @@ jobs:
         if: ${{ inputs.planilla_prueba == '' }}
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
-        run: python publicar.py
+        run: |
+          if [ "${{ github.event.schedule }}" = "30 15 * * *" ]; then python publicar.py --tipo reel; else python publicar.py --tipo carrusel; fi
       - name: Registrar lo publicado
         if: ${{ inputs.planilla_prueba == '' }}
         run: |

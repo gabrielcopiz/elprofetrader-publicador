@@ -2,14 +2,15 @@
 # Lo usan semana1.py, semana2.py y (copiado como estilo.py) el publicador.
 INK, PAPER, OCHRE, OCHRE_DARK, POS, NEG = "#1C2230", "#F2F3F0", "#C9861F", "#8F5A0E", "#2F7D5B", "#B5473A"
 
-# (fondo oscuro, fondo claro, acento sobre oscuro, acento sobre claro, texto sobre claro)
-# Contraste medido (WCAG): texto blanco sobre oscuro 5,2 a 15,9; acentos 4,1 a 6,9; texto sobre claro 12+.
+# (fondo fuerte, fondo claro, acento sobre fuerte, acento sobre claro, texto sobre claro, texto sobre fuerte)
+# Criterios (20/11): 1) distinguir troncales en la grilla; 2) nada de verde "ganancia" ni rojo "pérdida"
+# como color de troncal; 3) apoyarse en la historia del profe (pizarrón, conos, aula). Contraste medido 4,4 a 15,9.
 TEMAS = {
-    "base":    ("#1C2230", "#F2F3F0", "#C9861F", "#8F5A0E", "#1C2230"),  # Presentación: tinta + ocre
-    "cabeza":  ("#2B1E4F", "#F0EBFA", "#B9A2FF", "#5B3DB8", "#22183F"),  # Cabeza · Psicotrading: violeta
-    "tactica": ("#0E3B33", "#E6F3EE", "#4CD3A0", "#0B7354", "#0B2E28"),  # Táctica: verde pizarra
-    "pasos":   ("#1D4ED8", "#EBF1FF", "#FFD23F", "#1D4ED8", "#14286B"),  # Primeros pasos: azul + amarillo
-    "entreno": ("#C2410C", "#FCEEE5", "#FFE2B8", "#A3360A", "#3A1606"),  # Entrenamiento: naranja cancha
+    "base":    ("#1C2230", "#F2F3F0", "#C9861F", "#8F5A0E", "#1C2230", "#FFFFFF"),  # Presentación: tinta + ocre (logo)
+    "cabeza":  ("#2B1E4F", "#F0EBFA", "#B9A2FF", "#5B3DB8", "#22183F", "#FFFFFF"),  # Cabeza: violeta, neutro en trading
+    "tactica": ("#0E3B33", "#E9F1EC", "#F3E6A6", "#0E5A4A", "#1C2230", "#FFFFFF"),  # Táctica: pizarrón + tiza
+    "pasos":   ("#8ECDF3", "#EEF7FD", "#1E3A8A", "#1E4FA0", "#1C2230", "#1C2230"),  # Primeros pasos: celeste del aula
+    "entreno": ("#EA580C", "#FCEEE5", "#FFFFFF", "#B45309", "#1C2230", "#1C2230"),  # Entrenamiento: naranja cono
 }
 
 def tema(kicker):
@@ -33,9 +34,9 @@ CSS = """
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{width:1080px;height:1350px}
 .s{width:1080px;height:1350px;padding:88px 96px;display:flex;flex-direction:column;position:relative;overflow:hidden}
-.ink{background:var(--d);color:#fff;--ac:var(--a)}
+.ink{background:var(--d);color:var(--td);--ac:var(--a)}
 .paper{background:var(--l);color:var(--tx);--ac:var(--al)}
-.lc{fill:var(--ac)} .ink .lb{fill:#fff} .paper .lb{fill:var(--tx)}
+.lc{fill:var(--ac)} .ink .lb{fill:var(--td)} .paper .lb{fill:var(--tx)}
 .top{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:1}
 .kick{font:500 30px 'IBM Plex Mono',monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--ac)}
 .rule{width:72px;height:4px;background:var(--ac);margin-top:22px}
@@ -68,7 +69,8 @@ td.v{font:500 34px 'IBM Plex Mono',monospace;color:var(--ac);white-space:nowrap}
 .motivo{position:absolute;left:0;right:0;bottom:140px;height:260px;opacity:.38}
 .m-pasos{opacity:.9}
 .m-tactica{opacity:.7}
-.m-entreno{opacity:.45}
+.m-entreno{opacity:.5}
+.ok{color:var(--tx)!important}
 .cover .mid{padding-bottom:260px;justify-content:flex-end}
 """
 
@@ -87,7 +89,7 @@ def motivo(t):
         pts = [(0,190),(90,165),(170,200),(260,135),(340,155),(430,110),(520,145),(610,85),(700,115),(790,70),(880,100),(970,50),(1080,75)]
         line = " ".join(f"{x},{y}" for x, y in pts)
         lv = "".join(f'<line x1="0" x2="1080" y1="{y}" y2="{y}" stroke="var(--a)" stroke-width="3" stroke-dasharray="{da}"/>' for y, da in [(30,"16 10"),(160,"4 8"),(235,"16 10")])
-        return svg + lv + f'<polyline points="{line}" fill="none" stroke="#fff" stroke-width="6" stroke-linejoin="round"/></svg>'
+        return svg + lv + f'<polyline points="{line}" fill="none" stroke="var(--td)" stroke-width="6" stroke-linejoin="round"/></svg>'
     if t == "pasos":  # escalera
         n = 8; w = W / n
         return svg + "".join(f'<rect x="{i*w+4:.0f}" y="{260-(30+i*28)}" width="{w-8:.0f}" height="{30+i*28}" fill="{'var(--a)' if i == n-1 else '#fff'}" opacity="{1 if i == n-1 else 0.12+0.05*i:.2f}"/>' for i in range(n)) + "</svg>"
@@ -96,23 +98,23 @@ def motivo(t):
         for r in range(3):
             for c in range(9):
                 x = 40 + c * 115; y = 20 + r * 80
-                out.append(f'<rect x="{x}" y="{y}" width="64" height="64" rx="6" fill="none" stroke="#fff" stroke-width="4"/>')
+                out.append(f'<rect x="{x}" y="{y}" width="64" height="64" rx="6" fill="none" stroke="var(--td)" stroke-width="4"/>')
                 if (r * 9 + c) % 4 != 3:
                     out.append(f'<path d="M{x+14} {y+34} l14 14 l24 -30" fill="none" stroke="var(--a)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>')
         return "".join(out) + "</svg>"
     hs = [(60,110),(90,150),(70,120),(120,190),(100,150),(140,210),(110,170),(150,230),(130,180),(170,240),(150,200),(190,250),(160,215),(200,255)]
     out = []; w = W / len(hs)
     for i, (lo, hi) in enumerate(hs):
-        x = i*w + w*0.3; bw = w*0.4; col = "var(--a)" if i % 3 != 2 else "#fff"
+        x = i*w + w*0.3; bw = w*0.4; col = "var(--a)" if i % 3 != 2 else "var(--td)"
         top = 260 - hi; bot = 260 - lo
         out.append(f'<rect x="{x+bw/2-2:.1f}" y="{top-18}" width="4" height="{bot-top+36}" fill="{col}"/><rect x="{x:.1f}" y="{top}" width="{bw:.1f}" height="{bot-top}" fill="{col}"/>')
     return svg + "".join(out) + "</svg>"
 
 def slide(kind, bg, kicker, n, total, body):
-    d, l, a, al, tx = TEMAS[tema(kicker)]
+    d, l, a, al, tx, td = TEMAS[tema(kicker)]
     right = '<span class="swipe">Deslizá →</span>' if kind == "cover" else f"{n:02d} / {total:02d}"
     deco = motivo(tema(kicker)) if kind == "cover" else ""
-    return f'''<div class="s {bg} {kind}" style="--d:{d};--l:{l};--a:{a};--al:{al};--tx:{tx}">{deco}
+    return f'''<div class="s {bg} {kind}" style="--d:{d};--l:{l};--a:{a};--al:{al};--tx:{tx};--td:{td}">{deco}
       <div class="top"><div><div class="kick">{kicker}</div><div class="rule"></div></div>{logo()}</div>
       <div class="mid">{body}</div>
       <div class="bot"><span>@elprofetrader</span><span>{right}</span></div>

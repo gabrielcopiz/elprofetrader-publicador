@@ -67,7 +67,7 @@ def laminas(c):
     tabla = '<table><tr><th>Día</th><th>Qué hice</th><th>Resultado</th></tr>' + "".join(
         f'<tr><td class="k">{a}</td><td>{b}</td><td class="v">{r}</td></tr>' for a, b, r in c["filas"][:8]) + "</table>"
     marcas = "<ul>" + "".join(
-        f'<li><span class="m"{"" if ok else f" style=color:{NEG}"}>{"✓" if ok else "✕"}</span><span>{q}</span></li>' for q, ok, _ in c["preg"]) + "</ul>"
+        f'<li><span class="m{" ok" if ok else ""}"{"" if ok else f" style=color:{NEG}"}>{"✓" if ok else "✕"}</span><span>{q}</span></li>' for q, ok, _ in c["preg"]) + "</ul>"
     fallas = [txt for _, ok, txt in c["preg"] if not ok]
     if not c["trades"]:
         lleva = '<h2>Esta semana <em>no operé</em>.</h2><p class="b">No apareció lo que espero. No entrar también es parte del plan.</p>'

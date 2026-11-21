@@ -71,7 +71,7 @@ td.v{font:500 34px 'IBM Plex Mono',monospace;color:var(--ac);white-space:nowrap}
 .m-tactica{opacity:.7}
 .m-entreno{opacity:.5}
 .ok{color:var(--tx)!important}
-.cover .mid{padding-bottom:260px;justify-content:flex-end}
+.cover .mid{padding-bottom:310px;justify-content:flex-end}
 """
 
 def motivo(t):

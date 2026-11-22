@@ -1,0 +1,9 @@
+Antes de tu primer trade en futuros tenés que saber una cosa: cuánto vale cada movimiento del precio.
+
+Se mide en ticks. Y no vale lo mismo en todos los contratos: el micro vale diez veces menos que el grande.
+
+Acá está la tabla del S&P 500 y del Nasdaq, con un ejemplo real de mi diario.
+
+Mandáselo a alguien que está empezando en futuros.
+
+#futuros #aprenderatradear #trading #cuentasdefondeo #tradingargentina

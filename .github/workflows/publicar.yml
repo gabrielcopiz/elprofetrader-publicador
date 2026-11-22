@@ -1,8 +1,15 @@
 name: Publicar en Instagram
 on:
   schedule:
-    - cron: "0 22 * * *"   # 19:00 hora Argentina: carruseles
-    - cron: "30 15 * * *"  # 12:30 hora Argentina: reels
+    # GitHub atrasa los horarios programados (medido 20-22/11: de 3,5 a 5,5 horas). Por eso el robot corre varias
+    # veces por día y publicar.py --auto decide según la hora argentina real: reels desde las 12:30, carruseles desde las 19:00.
+    # Minutos "raros" a propósito: a la hora en punto GitHub se atrasa más.
+    - cron: "37 15 * * *"  # 12:37 ART
+    - cron: "17 18 * * *"  # 15:17 ART
+    - cron: "7 22 * * *"   # 19:07 ART
+    - cron: "37 23 * * *"  # 20:37 ART
+    - cron: "17 1 * * *"   # 22:17 ART
+    - cron: "47 2 * * *"   # 23:47 ART
   workflow_dispatch:
     inputs:
       planilla_prueba:
@@ -10,11 +17,15 @@ on:
         required: false
 permissions:
   contents: write
+concurrency:
+  group: publicar   # nunca dos corridas a la vez: evita publicar dos veces lo mismo
+  cancel-in-progress: false
 jobs:
   publicar:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with: { ref: main }   # siempre lo último (con lo que ya registró la corrida anterior)
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - name: Prueba de planilla (no publica nada)
@@ -29,11 +40,13 @@ jobs:
         if: ${{ inputs.planilla_prueba != '' }}
         with: { name: planilla-prueba, path: publicaciones/planillas }
       - name: Planilla del viernes (con los trades reales del diario)
-        if: ${{ github.event_name == 'schedule' && github.event.schedule == '0 22 * * *' }}
+        if: ${{ github.event_name == 'schedule' }}
         env:
           DIARIO_KEY: ${{ secrets.DIARIO_KEY }}
         run: |
-          if [ "$(TZ=America/Argentina/Buenos_Aires date +%u)" = "5" ]; then
+          DIA=$(TZ=America/Argentina/Buenos_Aires date +%u); HORA=$(TZ=America/Argentina/Buenos_Aires date +%H)
+          # viernes desde las 19, o sábado de madrugada si GitHub se atrasó más allá de la medianoche
+          if { [ "$DIA" = "5" ] && [ "$HORA" -ge 19 ]; } || { [ "$DIA" = "6" ] && [ "$HORA" -lt 6 ]; }; then
             pip install -q playwright==1.48.0 && python -m playwright install --with-deps chromium
             python planilla.py
             git config user.name "publicador"
@@ -41,16 +54,15 @@ jobs:
             git add publicaciones agenda.json
             if ! git diff --cached --quiet; then git commit -m "Planilla del viernes" && git push && sleep 60; fi
           else
-            echo "No es viernes"
+            echo "No toca planilla"
           fi
-      - name: Publicar lo agendado para hoy
+      - name: Publicar lo que corresponda según la hora
         if: ${{ inputs.planilla_prueba == '' }}
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
-        run: |
-          if [ "${{ github.event.schedule }}" = "30 15 * * *" ]; then python publicar.py --tipo reel; else python publicar.py --tipo carrusel; fi
+        run: python publicar.py --auto
       - name: Registrar lo publicado
-        if: ${{ inputs.planilla_prueba == '' }}
+        if: ${{ always() && inputs.planilla_prueba == '' }}
         run: |
           git config user.name "publicador"
           git config user.email "publicador@users.noreply.github.com"

@@ -106,7 +106,13 @@ async def render(slides, base, chrome=None):
 
 def main():
     hoy = (datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None) - datetime.timedelta(hours=3)).date()
-    viernes = datetime.date.fromisoformat(sys.argv[1]) if len(sys.argv) > 1 else hoy
+    ahora = datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None) - datetime.timedelta(hours=3)
+    if len(sys.argv) > 1:
+        viernes = datetime.date.fromisoformat(sys.argv[1])
+    elif ahora.weekday() == 5 and ahora.hour < 6:
+        viernes = hoy - datetime.timedelta(days=1)  # GitHub se atrasó y ya es sábado de madrugada
+    else:
+        viernes = hoy
     if viernes.weekday() != 4:
         print("Hoy no es viernes: no hay planilla"); return
     pid = f"planilla-{viernes.isoformat()}"

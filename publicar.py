@@ -1,5 +1,6 @@
 """Publica en Instagram (@elprofetrader) el carrusel agendado para hoy (hora Argentina).
-Uso: python publicar.py [--tipo carrusel|reel]  -> publica lo de hoy de ese tipo si no se publicó (por defecto carrusel)
+Uso: python publicar.py --auto                     -> lo que toque según la hora (reel desde 12:30, carrusel desde 19:00)
+     python publicar.py [--tipo carrusel|reel]  -> publica lo de hoy de ese tipo si no se publicó (por defecto carrusel)
      python publicar.py --prueba ID             -> arma la publicación de ID sin publicarla (control)
 Un carrusel y un reel por día como máximo, cada uno en su horario."""
 import json, os, sys, time, urllib.request, urllib.parse, datetime
@@ -59,8 +60,21 @@ def main():
     if len(sys.argv) > 2 and sys.argv[1] == "--prueba":
         item = next(a for a in agenda if a["id"] == sys.argv[2])
         print("Prueba OK, publicación armada y lista (sin publicar):", armar(item)); return
+    ahora = datetime.datetime.utcnow() - datetime.timedelta(hours=3)  # hora Argentina
+    if "--auto" in sys.argv:
+        # GitHub atrasa los horarios programados (medido: de 3 a 5 horas). El robot corre varias veces y
+        # publica lo que corresponde según la hora real: reels desde las 12:30 y carruseles desde las 19:00.
+        if ahora.hour < 6:  # corrida atrasada que cayó de madrugada: cuenta como el final del día anterior
+            ahora = ahora.replace(hour=23, minute=59) - datetime.timedelta(days=1)
+        hm = ahora.hour * 60 + ahora.minute
+        for tipo in (["reel"] if hm >= 750 else []) + (["carrusel"] if hm >= 1140 else []):
+            publicar_tipo(agenda, tipo, ahora)
+        return
     tipo = sys.argv[sys.argv.index("--tipo") + 1] if "--tipo" in sys.argv else "carrusel"
-    hoy = (datetime.datetime.utcnow() - datetime.timedelta(hours=3)).date().isoformat()
+    publicar_tipo(agenda, tipo, ahora)
+
+def publicar_tipo(agenda, tipo, ahora):
+    hoy = ahora.date().isoformat()
     hecho_p = os.path.join(AQUI, "publicado.json")
     hecho = json.load(open(hecho_p, encoding="utf-8"))
     pend = [a for a in agenda if a["fecha"] <= hoy and a["id"] not in hecho and a.get("tipo", "carrusel") == tipo]

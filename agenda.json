@@ -13,9 +13,7 @@
   {"fecha": "2026-12-02", "carpeta": "semana2", "id": "s2-3-miercoles", "laminas": 7},
   {"fecha": "2026-12-03", "carpeta": "semana2", "id": "s2-4-jueves", "laminas": 7},
   {"fecha": "2026-12-03", "carpeta": "reels", "id": "r05-duda", "tipo": "reel", "portada": true},
-  {"fecha": "2026-12-07", "carpeta": "semana3", "id": "s3-1-lunes", "laminas": 7},
   {"fecha": "2026-12-08", "carpeta": "semana3", "id": "s3-2-martes", "laminas": 7},
-  {"fecha": "2026-12-08", "carpeta": "reels", "id": "r06-autopsia", "tipo": "reel", "portada": true},
   {"fecha": "2026-12-09", "carpeta": "semana3", "id": "s3-3-miercoles", "laminas": 7},
   {"fecha": "2026-12-10", "carpeta": "semana3", "id": "s3-4-jueves", "laminas": 7},
   {"fecha": "2026-12-10", "carpeta": "reels", "id": "r07-tick", "tipo": "reel", "portada": true}

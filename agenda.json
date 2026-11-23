@@ -1,27 +1,159 @@
 [
-  {"fecha": "2026-11-23", "carpeta": "semana1", "id": "1-lunes", "laminas": 7},
-  {"fecha": "2026-11-24", "carpeta": "semana1", "id": "2-martes", "laminas": 7},
-  {"fecha": "2026-11-25", "carpeta": "semana1", "id": "3-miercoles", "laminas": 7},
-  {"fecha": "2026-11-26", "carpeta": "semana1", "id": "4-jueves", "laminas": 7},
-  {"fecha": "2026-11-27", "carpeta": "semana1", "id": "5-viernes", "laminas": 7},
-  {"fecha": "2026-11-28", "carpeta": "semana4", "id": "s4-28-sabado", "laminas": 6},
-  {"fecha": "2026-11-29", "carpeta": "semana4", "id": "s4-29-domingo", "laminas": 7},
-  {"fecha": "2026-11-30", "carpeta": "semana2", "id": "s2-1-lunes", "laminas": 7},
-  {"fecha": "2026-12-01", "carpeta": "semana2", "id": "s2-2-martes", "laminas": 7},
-  {"fecha": "2026-12-02", "carpeta": "semana2", "id": "s2-3-miercoles", "laminas": 7},
-  {"fecha": "2026-12-03", "carpeta": "semana2", "id": "s2-4-jueves", "laminas": 7},
-  {"fecha": "2026-12-05", "carpeta": "semana4", "id": "s4-05-sabado", "laminas": 7},
-  {"fecha": "2026-12-06", "carpeta": "semana4", "id": "s4-06-domingo", "laminas": 7},
-  {"fecha": "2026-12-07", "carpeta": "semana4", "id": "s4-07-lunes", "laminas": 7},
-  {"fecha": "2026-12-08", "carpeta": "semana3", "id": "s3-2-martes", "laminas": 7},
-  {"fecha": "2026-12-09", "carpeta": "semana3", "id": "s3-3-miercoles", "laminas": 7},
-  {"fecha": "2026-12-10", "carpeta": "semana3", "id": "s3-4-jueves", "laminas": 7},
-  {"fecha": "2026-12-12", "carpeta": "semana4", "id": "s4-12-sabado", "laminas": 7},
-  {"fecha": "2026-12-13", "carpeta": "semana4", "id": "s4-13-domingo", "laminas": 7},
-  {"fecha": "2026-12-14", "carpeta": "semana4", "id": "s4-14-lunes", "laminas": 7},
-  {"fecha": "2026-12-15", "carpeta": "semana4", "id": "s4-15-martes", "laminas": 7},
-  {"fecha": "2026-12-16", "carpeta": "semana4", "id": "s4-16-miercoles", "laminas": 7},
-  {"fecha": "2026-12-17", "carpeta": "semana4", "id": "s4-17-jueves", "laminas": 7},
-  {"fecha": "2026-12-19", "carpeta": "semana4", "id": "s4-19-sabado", "laminas": 7},
-  {"fecha": "2026-12-20", "carpeta": "semana4", "id": "s4-20-domingo", "laminas": 7}
+ {
+  "fecha": "2026-11-23",
+  "carpeta": "semana1",
+  "id": "1-lunes",
+  "laminas": 7
+ },
+ {
+  "fecha": "2026-11-24",
+  "carpeta": "semana1",
+  "id": "2-martes",
+  "laminas": 7
+ },
+ {
+  "fecha": "2026-11-24",
+  "carpeta": "reels",
+  "id": "v01-7dias-voz",
+  "tipo": "reel",
+  "portada": true
+ },
+ {
+  "fecha": "2026-11-25",
+  "carpeta": "semana1",
+  "id": "3-miercoles",
+  "laminas": 7
+ },
+ {
+  "fecha": "2026-11-26",
+  "carpeta": "semana1",
+  "id": "4-jueves",
+  "laminas": 7
+ },
+ {
+  "fecha": "2026-11-27",
+  "carpeta": "semana1",
+  "id": "5-viernes",
+  "laminas": 7
+ },
+ {
+  "fecha": "2026-11-28",
+  "carpeta": "semana4",
+  "id": "s4-28-sabado",
+  "laminas": 6
+ },
+ {
+  "fecha": "2026-11-29",
+  "carpeta": "semana4",
+  "id": "s4-29-domingo",
+  "laminas": 7
+ },
+ {
+  "fecha": "2026-11-30",
+  "carpeta": "semana2",
+  "id": "s2-1-lunes",
+  "laminas": 7
+ },
+ {
+  "fecha": "2026-12-01",
+  "carpeta": "semana2",
+  "id": "s2-2-martes",
+  "laminas": 7
+ },
+ {
+  "fecha": "2026-12-02",
+  "carpeta": "semana2",
+  "id": "s2-3-miercoles",
+  "laminas": 7
+ },
+ {
+  "fecha": "2026-12-03",
+  "carpeta": "semana2",
+  "id": "s2-4-jueves",
+  "laminas": 7
+ },
+ {
+  "fecha": "2026-12-05",
+  "carpeta": "semana4",
+  "id": "s4-05-sabado",
+  "laminas": 7
+ },
+ {
+  "fecha": "2026-12-06",
+  "carpeta": "semana4",
+  "id": "s4-06-domingo",
+  "laminas": 7
+ },
+ {
+  "fecha": "2026-12-07",
+  "carpeta": "semana4",
+  "id": "s4-07-lunes",
+  "laminas": 7
+ },
+ {
+  "fecha": "2026-12-08",
+  "carpeta": "semana3",
+  "id": "s3-2-martes",
+  "laminas": 7
+ },
+ {
+  "fecha": "2026-12-09",
+  "carpeta": "semana3",
+  "id": "s3-3-miercoles",
+  "laminas": 7
+ },
+ {
+  "fecha": "2026-12-10",
+  "carpeta": "semana3",
+  "id": "s3-4-jueves",
+  "laminas": 7
+ },
+ {
+  "fecha": "2026-12-12",
+  "carpeta": "semana4",
+  "id": "s4-12-sabado",
+  "laminas": 7
+ },
+ {
+  "fecha": "2026-12-13",
+  "carpeta": "semana4",
+  "id": "s4-13-domingo",
+  "laminas": 7
+ },
+ {
+  "fecha": "2026-12-14",
+  "carpeta": "semana4",
+  "id": "s4-14-lunes",
+  "laminas": 7
+ },
+ {
+  "fecha": "2026-12-15",
+  "carpeta": "semana4",
+  "id": "s4-15-martes",
+  "laminas": 7
+ },
+ {
+  "fecha": "2026-12-16",
+  "carpeta": "semana4",
+  "id": "s4-16-miercoles",
+  "laminas": 7
+ },
+ {
+  "fecha": "2026-12-17",
+  "carpeta": "semana4",
+  "id": "s4-17-jueves",
+  "laminas": 7
+ },
+ {
+  "fecha": "2026-12-19",
+  "carpeta": "semana4",
+  "id": "s4-19-sabado",
+  "laminas": 7
+ },
+ {
+  "fecha": "2026-12-20",
+  "carpeta": "semana4",
+  "id": "s4-20-domingo",
+  "laminas": 7
+ }
 ]

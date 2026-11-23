@@ -1,15 +1,30 @@
 name: Publicar en Instagram
 on:
   schedule:
-    # GitHub atrasa los horarios programados (medido 20-22/11: de 3,5 a 5,5 horas). Por eso el robot corre varias
-    # veces por día y publicar.py --auto decide según la hora argentina real: reels desde las 12:30, carruseles desde las 19:00.
+    # GitHub atrasa los horarios programados (medido 20-22/11: de 3,5 a 5,5 horas). Por eso el robot corre muchas
+    # veces por día (cada 20-40 min de 12:30 a 0 h ART; el repo es público, no cuesta) y publicar.py --auto decide según la hora argentina real: reels desde las 12:30, carruseles desde las 19:00.
     # Minutos "raros" a propósito: a la hora en punto GitHub se atrasa más.
     - cron: "37 15 * * *"  # 12:37 ART
+    - cron: "7 16 * * *"  # 13:07 ART
+    - cron: "47 16 * * *"  # 13:47 ART
+    - cron: "27 17 * * *"  # 14:27 ART
     - cron: "17 18 * * *"  # 15:17 ART
-    - cron: "7 22 * * *"   # 19:07 ART
-    - cron: "37 23 * * *"  # 20:37 ART
-    - cron: "17 1 * * *"   # 22:17 ART
-    - cron: "47 2 * * *"   # 23:47 ART
+    - cron: "57 18 * * *"  # 15:57 ART
+    - cron: "37 19 * * *"  # 16:37 ART
+    - cron: "17 20 * * *"  # 17:17 ART
+    - cron: "57 20 * * *"  # 17:57 ART
+    - cron: "37 21 * * *"  # 18:37 ART
+    - cron: "7 22 * * *"  # 19:07 ART
+    - cron: "27 22 * * *"  # 19:27 ART
+    - cron: "52 22 * * *"  # 19:52 ART
+    - cron: "17 23 * * *"  # 20:17 ART
+    - cron: "42 23 * * *"  # 20:42 ART
+    - cron: "12 0 * * *"  # 21:12 ART
+    - cron: "47 0 * * *"  # 21:47 ART
+    - cron: "17 1 * * *"  # 22:17 ART
+    - cron: "52 1 * * *"  # 22:52 ART
+    - cron: "27 2 * * *"  # 23:27 ART
+    - cron: "52 2 * * *"  # 23:52 ART
   workflow_dispatch:
     inputs:
       planilla_prueba:

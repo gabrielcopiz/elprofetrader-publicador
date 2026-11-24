@@ -12,6 +12,14 @@
   "laminas": 7
  },
  {
+  "fecha": "2026-11-24",
+  "carpeta": "reels",
+  "id": "v10-revancha",
+  "tipo": "reel",
+  "portada": true,
+  "audio_id": "1003607848234447"
+ },
+ {
   "fecha": "2026-11-25",
   "carpeta": "semana1",
   "id": "3-miercoles",

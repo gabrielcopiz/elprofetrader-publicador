@@ -1,0 +1,15 @@
+Tu estrategia funciona. Y a los 20 trades estás en rojo.
+
+Una estrategia que gana (40% de acierto, ganando el doble de lo que arriesga) puede estar en −8 R a los 20 trades y en +40 R a los 200.
+
+Lo simulé con 200.000 traders con esa misma estrategia. Están en rojo:
+→ a los 10 trades: 38 de cada 100
+→ a los 20: 25 de cada 100
+→ a los 100: 9 de cada 100
+→ a los 200: 2 de cada 100
+
+Con 20 trades no se juzga una estrategia. Se mide, trade por trade, en tu diario.
+
+Mandáselo a quien cambia de estrategia cada semana. Y seguí a @elprofetrader.
+
+#trading #futuros #diariodetrading #psicotrading #tradingargentina

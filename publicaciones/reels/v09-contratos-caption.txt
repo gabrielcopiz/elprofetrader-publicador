@@ -1,0 +1,11 @@
+10 puntos del S&P. A uno le cuestan 50 dólares. A otro, 500.
+
+Es el mismo gráfico. Lo que cambia es el contrato (datos de la bolsa de Chicago):
+→ ES (E-mini): 1 punto = 50 US$ · 1 tick = 12,50 US$
+→ MES (Micro): 1 punto = 5 US$ · 1 tick = 1,25 US$
+
+10 micros mueven lo mismo que 1 E-mini. Antes de operar, mirá qué contrato tenés abierto: una letra M cambia todo.
+
+Mandáselo a quien está empezando con futuros. Y seguí a @elprofetrader.
+
+#futuros #sp500 #tradingdesdecero #trading #tradingargentina

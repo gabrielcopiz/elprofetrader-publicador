@@ -1,0 +1,12 @@
+Movés el stop 1 de cada 3 veces. Tu estrategia ya no gana.
+
+Una estrategia con 40% de acierto que gana el doble de lo que arriesga deja +20 R cada 100 trades. Si en algunas pérdidas movés el stop y perdés el doble:
+→ 1 de cada 5: +8 R
+→ 1 de cada 3: 0 R
+→ la mitad: −10 R
+
+El stop se pone antes de entrar. Y una vez puesto, no se toca.
+
+Mandáselo a quien dice "le doy un poco más de aire". Y seguí a @elprofetrader.
+
+#trading #futuros #stoploss #gestionderiesgo #tradingargentina

@@ -32,10 +32,26 @@
   "laminas": 7
  },
  {
+  "fecha": "2026-11-26",
+  "carpeta": "reels",
+  "id": "v06-rachas",
+  "tipo": "reel",
+  "portada": true,
+  "audio_id": "2603949126473975"
+ },
+ {
   "fecha": "2026-11-27",
   "carpeta": "semana1",
   "id": "5-viernes",
   "laminas": 7
+ },
+ {
+  "fecha": "2026-11-27",
+  "carpeta": "reels",
+  "id": "v07-muestra",
+  "tipo": "reel",
+  "portada": true,
+  "audio_id": "1108285910189784"
  },
  {
   "fecha": "2026-11-28",
@@ -44,10 +60,26 @@
   "laminas": 6
  },
  {
+  "fecha": "2026-11-28",
+  "carpeta": "reels",
+  "id": "v09-contratos",
+  "tipo": "reel",
+  "portada": true,
+  "audio_id": "1388161098514399"
+ },
+ {
   "fecha": "2026-11-29",
   "carpeta": "semana4",
   "id": "s4-29-domingo",
   "laminas": 7
+ },
+ {
+  "fecha": "2026-11-29",
+  "carpeta": "reels",
+  "id": "v08-stop",
+  "tipo": "reel",
+  "portada": true,
+  "audio_id": "393903371411311"
  },
  {
   "fecha": "2026-11-30",

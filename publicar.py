@@ -57,6 +57,18 @@ def armar(item):
     esperar(car)
     return car
 
+def buscar_publicado(texto):
+    """Busca en las últimas publicaciones de la cuenta una con el mismo comienzo de texto. Devuelve (id, link) o None."""
+    try:
+        ult = llamar("GET", f"{IG_USER}/media", {"fields": "id,caption,permalink", "limit": "10"}).get("data", [])
+    except SystemExit:
+        return None
+    inicio = texto.strip()[:80]
+    for m in ult:
+        if (m.get("caption") or "").strip()[:80] == inicio:
+            return m["id"], m.get("permalink")
+    return None
+
 def main():
     agenda = json.load(open(os.path.join(AQUI, "agenda.json"), encoding="utf-8"))
     if len(sys.argv) > 2 and sys.argv[1] == "--prueba":
@@ -83,9 +95,23 @@ def publicar_tipo(agenda, tipo, ahora):
     if not pend:
         print("Nada para publicar hoy", tipo, hoy); return
     item = pend[0]  # uno por día como máximo
-    car = armar(item)
-    post = llamar("POST", f"{IG_USER}/media_publish", {"creation_id": car})["id"]
-    link = llamar("GET", post, {"fields": "permalink"}).get("permalink")
+    texto = open(os.path.join(AQUI, "publicaciones", item["carpeta"], f"{item['id']}-caption.txt"), encoding="utf-8").read()
+    ya = buscar_publicado(texto)  # ¿ya salió y no quedó anotado? (24/11: Instagram publicó y después dio error)
+    if ya:
+        post, link = ya
+        print("Ya estaba publicado sin registrar:", item["id"], link)
+    else:
+        car = armar(item)
+        try:
+            post = llamar("POST", f"{IG_USER}/media_publish", {"creation_id": car})["id"]
+            link = llamar("GET", post, {"fields": "permalink"}).get("permalink")
+        except SystemExit as e:
+            time.sleep(20)
+            ya = buscar_publicado(texto)
+            if not ya:
+                raise
+            post, link = ya
+            print("Instagram dio error pero la publicación salió; se registra igual:", e)
     hecho[item["id"]] = {"fecha": hoy, "post": post, "link": link}
     json.dump(hecho, open(hecho_p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print("Publicado:", item["id"], link)

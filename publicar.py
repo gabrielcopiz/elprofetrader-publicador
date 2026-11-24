@@ -37,6 +37,8 @@ def armar_reel(item):
     datos = {"media_type": "REELS", "video_url": url, "caption": texto, "share_to_feed": "true"}
     if item.get("portada"):
         datos["cover_url"] = f"{RAW}/{item['carpeta']}/{item['id']}-portada.jpg"
+    if item.get("audio_id"):  # música licenciada de Instagram (Audio API): no la silencian
+        datos["audio_configuration"] = json.dumps({"audio_id": item["audio_id"], "audio_volume": 100, "video_volume": 1})
     cid = llamar("POST", f"{IG_USER}/media", datos)["id"]
     esperar(cid, 60)  # hasta 5 minutos de procesamiento
     return cid

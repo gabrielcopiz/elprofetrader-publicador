@@ -1,0 +1,13 @@
+Perdés 6 de cada 10 trades. Y terminás arriba.
+
+No es magia: es cuánto ganás cuando ganás. Lo simulé con 100.000 traders, 100 trades cada uno, 40% de acierto:
+→ ganando lo mismo que arriesgás (1 a 1), terminan arriba 2 de cada 100.
+→ ganando el doble (1 a 2), terminan arriba 91 de cada 100.
+
+La cuenta para no perder: acierto mínimo = 1 ÷ (1 + ratio).
+
+Mandáselo a ese amigo que cree que tiene que acertar siempre. Y seguí a @elprofetrader: matemática real de trading, sin humo.
+
+¿Con qué ratio operás vos?
+
+#trading #futuros #gestionderiesgo #psicotrading #tradingargentina

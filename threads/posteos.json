@@ -1,0 +1,226 @@
+{
+  "creado": "2026-11-25",
+  "cuenta": "@elprofetrader (Threads)",
+  "objetivo": "Traer gente nueva: se mide por seguidores y alcance nuevos, no por cantidad publicada.",
+  "reglas": [
+    {
+      "regla": "Cada posteo termina en una pregunta concreta y fácil de contestar (un número, una palabra, una elección). En Threads las respuestas son la señal que más pesa para que te recomienden a gente que no te sigue. Nada de 'comentá SÍ': preguntas de verdad.",
+      "fuente": "Meta a creadores (Emily Dalton Smith, Business Insider, oct 2024): los posteos que generan conversación se recomiendan más. Mosseri: 'no todas las respuestas son buenas' (Engadget). https://businessinsider.in/tech/news/metas-head-of-threads-shares-advice-about-how-and-when-to-post-as-the-debate-swirls-around-engagement-bait/amp_articleshow/114227410.cms · https://www.engadget.com/social-media/meta-is-working-to-fix-threads-engagement-bait-problem-173135011.html"
+    },
+    {
+      "regla": "Contestar todas las respuestas, en lo posible en la primera hora. Las respuestas propias también cuentan como contenido.",
+      "fuente": "Buffer: contestar los comentarios en Threads sube la interacción un 42%. Mosseri (citado por Buffer): 'la suma de todas tus respuestas vale más o menos lo mismo que la suma de todos tus posteos'. https://buffer.com/resources/threads-comments-engagement/ · https://buffer.com/resources/threads-algorithm/"
+    },
+    {
+      "regla": "Todos los días, 5 a 10 respuestas con contenido (con un dato propio) en posteos de cuentas más grandes de trading y psicotrading en español. Es la puerta de entrada de una cuenta con 0 seguidores. Nunca @watsontradingacademy.",
+      "fuente": "Práctica de creadores, no confirmada por Meta: Sendible 2026 y audience.my. https://www.sendible.com/insights/threads-algorithm · https://audience.my/threads/grow-on-threads/"
+    },
+    {
+      "regla": "Un solo tema por posteo (Threads no deja más de uno) y siempre puesto: elegir el más específico que la gente mira.",
+      "fuente": "Meta: 'solo podés agregar un tema por publicación'; según sus datos internos, las publicaciones con tema tienen más vistas. Sendible: elegir el más específico. https://creators.instagram.com/threads · https://www.sendible.com/insights/threads-algorithm"
+    },
+    {
+      "regla": "Pocos temas y siempre los mismos: fondeo, psicotrading y futuros desde cero. Así el algoritmo entiende a quién mostrarle la cuenta.",
+      "fuente": "Gain y Miraflow (2026): ser constante con los temas pesa más que publicar más cantidad. https://blog.gainapp.com/threads-strategy/ · https://miraflow.ai/blog/threads-algorithm-2026-how-to-grow-meta-text-platform"
+    },
+    {
+      "regla": "Ritmo de cuenta nueva: 2 posteos por día (las guías hablan de hasta 3 en las primeras dos semanas). Mezclar posteos cortos con algún hilo: los cortos tienen más interacción y los hilos, más vistas.",
+      "fuente": "audience.my (3 por día las dos primeras semanas); análisis de 21.864 posteos de marzo 2026 (muestra chica, solo orientativo). https://audience.my/threads/grow-on-threads/ · https://dev.to/luca_restagno_acb4c68c5ca/i-analyzed-21864-threads-posts-in-march-2026-heres-what-i-found-4pe8"
+    },
+    {
+      "regla": "Horario (Argentina): días hábiles a las 9:00, antes de la apertura de Nueva York (11:30), y 20:30 a la noche. Fin de semana, 10:30 y 20:00. El domingo es el día más flojo.",
+      "fuente": "Buffer (2,5 millones de posteos, 2026): el mejor horario es el jueves a las 9 y el mejor día, el miércoles. eClincher: de 8 a 11 en días hábiles y una segunda franja de 19 a 21. Edgar: el domingo es el día más flojo. https://buffer.com/resources/the-best-time-to-post-on-threads/ · https://www.eclincher.com/articles/best-time-to-post-on-threads-in-2026 · https://meetedgar.com/blog/the-best-time-to-post-on-threads"
+    },
+    {
+      "regla": "Sin links en el posteo: la gente casi no hace clic y el posteo pierde interacción. Si hace falta un link, va en una respuesta propia.",
+      "fuente": "Mosseri (jun 2025) dice que ya no penaliza los links, pero Engadget y Sendible miden que en Threads casi no se hace clic. https://www.engadget.com/social-media/threads-users-still-barely-click-links-170139103.html · https://www.sendible.com/insights/threads-algorithm"
+    }
+  ],
+  "notas_investigacion": [
+    "No encontré ejemplos de posteos de trading en español en Threads: el buscador web no indexa threads.com para estos temas (3 búsquedas). Queda por medir desde la cuenta, buscando por tema dentro de Threads.",
+    "Hay datos de Buffer que dicen que las publicaciones con imagen rinden alrededor de 60% más que el texto solo, y otro análisis de 1,85 millones de posteos que no encuentra diferencia. Primera semana: texto, y probar imagen (lámina de carrusel ya publicada en IG) desde la segunda semana para comparar.",
+    "No pude confirmar qué temas de trading tienen más gente dentro de Threads. Uso 'Trading' como base y 'Psicotrading', 'Cuentas de fondeo' y 'Futuros' para comparar alcance al final de la semana."
+  ],
+  "posteos": [
+    {
+      "id": "t00-presentacion",
+      "fecha": "2026-11-25",
+      "hora": "20:30",
+      "tema": "Trading",
+      "partes": [
+        "Fui profe de Educación Física más de 20 años. Después de la pandemia dejé todo para operar futuros del S&P 500 y del Nasdaq.\n\nAcá voy a contar lo que casi nadie cuenta: las rachas, los stops, los días que no entro y lo que anoto antes de apretar el botón. Sin señales.\n\nArranco con una pregunta para los que operan: ¿cuántas cuentas quemaste hasta ahora? Decime el número."
+      ],
+      "por_que_trae_gente": "Identidad de tribu (el que quema cuentas se reconoce) + pratfall (arranca con un error propio) + pregunta de un número, la respuesta más fácil de dar.",
+      "fuente": "Perfil del fundador (memoria user_perfil_fundador, 18/11): ex profe +20 años, dejó todo post pandemia. Opera S&P 500 y Nasdaq (carrusel s4-28). Cuenta fondeada quemada: carrusel s3-1-lunes (autopsia). 'Sin señales': regla de la marca.",
+      "publicado": "2026-11-25 10:25 ART, a mano, tema Trading",
+      "control": "APROBADO 25/11"
+    },
+    {
+      "id": "t01-tres-de-tres",
+      "fecha": "2026-11-26",
+      "hora": "09:00",
+      "tema": "Psicotrading",
+      "partes": [
+        "Antes de cada trade anoto cómo estoy. Revisé mis 14 trades del 21 de octubre al 20 de noviembre.\n\nLas 3 veces que anoté duda, miedo o tensión, perdí. Las 3.\n\nY ojo, estar calmo tampoco te salva: calmo, de 11 gané 4, 2 quedaron en cero y perdí 5.\n\nTres trades no prueban nada. Pero lo tenía escrito antes de apretar el botón.\n\n¿Vos anotás cómo estás antes de entrar, o solo el resultado?"
+      ],
+      "por_que_trae_gente": "Sorpresa con dato propio (3 de 3) + pratfall (muestra las pérdidas estando calmo) + pregunta de elección entre dos opciones.",
+      "fuente": "Diario real, 14 trades 21/10 al 20/11: duda 29/10, miedo 10/11, tensión 13/11, los 3 perdidos; calmo 11: 4 ganados, 2 en cero, 5 perdidos (youtube/guiones-youtube.html, guion 2; carrusel s3-2-martes).",
+      "control": "APROBADO tras corrección 25/11"
+    },
+    {
+      "id": "t02-diez-minutos",
+      "fecha": "2026-11-25",
+      "hora": "20:30",
+      "tema": "Psicotrading",
+      "partes": [
+        "Pregunta para traders, sin vueltas:\n\nPerdiste un trade. ¿Qué hacés en los 10 minutos siguientes?\n\nYo me levanto de la silla. 10 minutos lejos de la pantalla.\n\nPorque el trade de revancha (entrar a los dos minutos, más grande y sin setup) no se siente como un error mientras lo estás haciendo.\n\nContame qué hacés vos. Leo todas las respuestas."
+      ],
+      "por_que_trae_gente": "Pregunta abierta sobre algo que todo trader vivió (respuesta fácil y personal) + identidad de tribu (la revancha).",
+      "fuente": "'Después de una pérdida me levanto 10 minutos': confirmado por el fundador el 23/11 (memoria project_marca_trading_referente). Definición de revancha: carrusel 2-martes (semana 1)."
+    },
+    {
+      "id": "t03-nota-por-el-movimiento",
+      "fecha": "2026-11-27",
+      "hora": "09:00",
+      "tema": "Trading",
+      "partes": [
+        "Opinión impopular: el día que ganás plata puede ser un mal día operando.\n\nCuando era profe no ponía la nota por el gol. La ponía por el movimiento.\n\nPor eso me pongo nota sobre 4: ¿puse el stop antes de entrar? ¿era mi setup? ¿respeté el límite? ¿anoté todo?\n\nSi ganaste rompiendo dos de esas, no fue un buen día. Fue suerte.\n\n¿Estás de acuerdo o te parece una exageración?"
+      ],
+      "por_que_trae_gente": "Opinión con postura (invita a discutir sin agredir a nadie) + autoridad de la historia de profe + pregunta de acuerdo o desacuerdo.",
+      "fuente": "Frase del gol: carrusel 5-viernes (semana 1). Nota sobre 4 (stop, setup, límite, anotó todo): planilla del viernes, publicador/planilla.py (memoria 20/11)."
+    },
+    {
+      "id": "t04-quemada-y-rentable-hilo",
+      "fecha": "2026-11-25",
+      "hora": "20:30",
+      "tema": "Cuentas de fondeo",
+      "partes": [
+        "Quemé una cuenta fondeada. Y soy rentable.\n\nLas dos cosas son verdad al mismo tiempo. Le pasa a todos los traders, también a los rentables, y casi nadie lo explica. Hilo corto.",
+        "Una cuenta de fondeo se opera con otro riesgo que tu cuenta: la pérdida máxima está mucho más cerca.\n\nY las rachas existen. Si acertás 4 de cada 10 trades, en 100 trades la chance de ver 5 stops seguidos es 97,6%. Casi la mitad de las veces vas a ver 8.",
+        "Mi cuenta: seis trades entre el 21 de octubre y el 2 de noviembre. En los seis anoté 'seguí el plan'.\n\nNo fue revancha. No fue un stop movido. Fue una racha que esa cuenta no aguantó.",
+        "Por eso, cuando ya sos rentable, lo más importante en fondeo es el tiempo: que la cuenta dure lo suficiente para que tu ventaja aparezca.\n\nOjo: eso vale solo si sos rentable. Querer pasarla en un día es apostar.\n\nSomos traders, no apostadores.\n\n¿Cuántos stops seguidos aguanta tu cuenta? Decime el número."
+      ],
+      "por_que_trae_gente": "Contraste/sorpresa en el gancho (quemé y soy rentable), identidad de tribu (traders vs apostadores), dato contraintuitivo de rachas y pregunta numérica fácil de responder.",
+      "fuente": "Racha 97,6% con 40% de acierto en 100 trades y 8 seguidas casi la mitad de las veces: carrusel s3-3-miercoles (simulación documentada en el repo). Cuenta quemada, 6 trades 21/10 al 2/11, 'seguí el plan' en los seis, racha de stops: carrusel s3-1-lunes.",
+      "control": "Reescrito 25/11 con el enfoque pedido por el fundador; números ya verificados (97,6% y ~49%; 6 trades 21/10-2/11 con \"seguí el plan\")",
+      "publicado": "2026-11-25 10:50 ART, a mano, hilo de 4 partes, tema Trading"
+    },
+    {
+      "id": "t05-cual-futuro",
+      "fecha": "2026-11-28",
+      "hora": "10:30",
+      "tema": "Futuros",
+      "partes": [
+        "Si me decís 'opero futuros', te pregunto: ¿cuáles?\n\nLos que opero yo (S&P 500 y Nasdaq) cotizan en CME, la bolsa de futuros de Chicago, y vencen: el de diciembre del S&P 500 vence el viernes 18.\n\nLos 'futuros' de las plataformas cripto son casi siempre perpetuos: no vencen y cada 8 horas pagás o cobrás una tasa.\n\nMismo nombre, dos productos distintos.\n\n¿Vos cuál operás? ¿O todavía ninguno?"
+      ],
+      "por_que_trae_gente": "Utilidad para el que empieza (lo que más se busca es cripto) + pregunta de elección que cualquiera puede contestar, incluso el que no opera.",
+      "fuente": "Carrusel s4-28-sabado (CME vs perpetuos, tasa cada 8 horas) y s4-05-sabado (vencimiento del contrato de diciembre el viernes 18/12)."
+    },
+    {
+      "id": "t06-ochenta-y-nueve-minutos",
+      "fecha": "2026-11-28",
+      "hora": "20:00",
+      "tema": "Psicotrading",
+      "partes": [
+        "Medí cuánto duraron mis 13 trades del 21/10 al 20/11. 12 de 13 terminaron en 30 minutos o menos. La mitad, en 9 minutos o menos.\n\nUno duró 89 minutos. Y es el único de esos 13 en el que cambié el plan: pasé el stop a break-even porque 'había pasado muchísimo tiempo'.\n\nCuando el trade tarda, la cabeza empieza a decidir por vos.\n\n¿A vos qué te pasa con el trade que tarda? ¿Lo cerrás, lo achicás o lo aguantás?"
+      ],
+      "por_que_trae_gente": "Pratfall (error propio con su frase textual del diario) + dato concreto + pregunta de tres opciones.",
+      "fuente": "Carrusel s4-17-jueves: duración de 13 trades del diario; el de 89 minutos con stop a break-even y la frase textual 'había pasado muchísimo tiempo'.",
+      "control": "APROBADO tras corrección 25/11"
+    },
+    {
+      "id": "t07-hace-cuanto",
+      "fecha": "2026-11-29",
+      "hora": "10:30",
+      "tema": "Trading",
+      "partes": [
+        "Pregunta de domingo para los que operan:\n\n¿Hace cuánto que estás intentando?\n\nYo fui profe de Educación Física más de 20 años y después de la pandemia dejé todo por esto. Hoy opero futuros y anoto todo, hasta los días que no entro.\n\nRespondé con los años y una palabra que lo resuma. Quiero ver dónde estamos todos."
+      ],
+      "por_que_trae_gente": "Identidad y pertenencia (el público que comenta lleva 3 o 4 años intentando, según la investigación del 23/11) + pregunta muy fácil (años + una palabra) para un día de poco movimiento.",
+      "fuente": "Perfil del fundador (memoria 18/11). 'Anoto hasta los días que no entro': carrusel s4-29-domingo. Público que lleva 3-4 años: comentarios analizados en youtube/guiones-youtube.html (investigación 23/11)."
+    },
+    {
+      "id": "t08-siete-dias",
+      "fecha": "2026-11-29",
+      "hora": "20:00",
+      "tema": "Trading",
+      "partes": [
+        "Un mes de mercado: 23 días. Operé 13. En 7 no entré porque no apareció mi setup.\n\nEsos 7 también están en mi diario, con el motivo.\n\nSobreoperar no es operar mucho. Es entrar cuando tu plan no te dio nada.\n\nEn mi evaluación tuve 3 días seguidos sin entrar (17, 18 y 19 de noviembre).\n\n¿Cuántos días seguidos sin entrar aguantás vos antes de forzar un trade?"
+      ],
+      "por_que_trae_gente": "Opinión con postura (redefine sobreoperar, una de las búsquedas grandes de psicología) + dato propio + pregunta de un número.",
+      "fuente": "Carrusel s4-29-domingo (23 días, 13 operados, 7 sin setup). Días 17, 18 y 19/11 sin entrada ('no dio entrada nunca'): guion 1 de youtube/guiones-youtube.html. Demanda 'sobreoperar' 26 mil y 18 mil vistas: misma investigación."
+    },
+    {
+      "id": "t09-fondeo-examen",
+      "fecha": "2026-11-30",
+      "hora": "09:00",
+      "tema": "Cuentas de fondeo",
+      "partes": [
+        "Una cuenta de fondeo no es plata regalada. Es un examen con reglas.\n\nDato oficial de Topstep sobre 2025: solo el 0,71% de sus cuentas fondeadas simuladas pasó a cuenta real.\n\nNo lo digo para desanimar a nadie. Lo digo porque muchas cuentas no se queman por el gráfico: se queman por no saberse las reglas.\n\n¿Cuál es la regla de tu firma que más te costó entender?"
+      ],
+      "por_que_trae_gente": "Dato que sorprende con fuente oficial + postura clara + pregunta que obliga a contar la experiencia propia (respuestas largas). Fondeo = el tema con más demanda medida.",
+      "fuente": "0,71%: estadísticas oficiales de Topstep 2025 (verificado 24/11, memoria project_profe_trader_referentes_emular). 'Examen con reglas': carrusel s2-3-miercoles. Demanda fondeo 197-209 mil vistas: investigación 23/11."
+    },
+    {
+      "id": "t10-seis-de-noviembre",
+      "fecha": "2026-11-30",
+      "hora": "20:30",
+      "tema": "Psicotrading",
+      "partes": [
+        "El 6 de noviembre me sacó el stop el trade que me hacía pasar la evaluación. A los minutos, el precio se fue justo adonde yo decía.\n\nLo peligroso no fue la pérdida. Fue la frase de después: 'si lo ponía un poco más lejos…'.\n\nEsa es la frase que después te hace mover el stop en el próximo trade.\n\n¿Cuántas veces te pasó este mes? Decime un número."
+      ],
+      "por_que_trae_gente": "Pratfall (pérdida propia con fecha) + identidad de tribu (a todos les pasó) + pregunta de un número.",
+      "fuente": "Trade real del 6/11 (stop y después objetivo, el que hacía pasar la evaluación): carrusel s2-1-lunes."
+    },
+    {
+      "id": "t11-plan-o-miedo",
+      "fecha": "2026-12-01",
+      "hora": "09:00",
+      "tema": "Trading",
+      "partes": [
+        "Una pregunta, una palabra: ¿pasás el stop a break-even por plan o por miedo?\n\nEntre el 21 de octubre y el 20 de noviembre tuve dos trades en break-even: el 29/10 y el 12/11. Mismo resultado: cero. Uno lo hice porque estaba en el plan. El otro, por sensación.\n\nEn mi planilla, mover el stop cuenta como falla aunque sea a break-even y aunque no haya perdido nada.\n\nRespondé 'plan' o 'miedo'. Sin vergüenza: yo ya dije el mío."
+      ],
+      "por_que_trae_gente": "Pregunta de una palabra (la respuesta más barata posible) + pratfall (admite el de sensación) + reciprocidad (él confiesa primero).",
+      "fuente": "Trades del 29/10 y 12/11 en break-even, por plan y por sensación: carrusel s2-2-martes (memoria 20/11). Regla de la planilla: mover el stop, aunque sea a break-even, cuenta como falla (memoria 20/11, planilla.py).",
+      "control": "APROBADO tras corrección 25/11"
+    },
+    {
+      "id": "t12-la-palabra-igual",
+      "fecha": "2026-12-01",
+      "hora": "20:30",
+      "tema": "Psicotrading",
+      "partes": [
+        "El 13 de noviembre perdí un trade por el reloj, no por el gráfico.\n\nTenía que irme, apareció el setup y anoté: 'No era una zona que me gustara mucho'. Entré.\n\nEl 10 había escrito: 'Voy a entrar igual'. También perdí.\n\nLas dos frases ya traían la duda adentro.\n\n¿Cuál es tu frase de alarma antes de un mal trade?"
+      ],
+      "por_que_trae_gente": "Pratfall con frases textuales del diario + curiosidad (la palabra 'igual') + pregunta personal que invita a responder con una palabra.",
+      "fuente": "Trade del 13/11 entrado apurado por el reloj: carrusel s2-4-jueves. Frases textuales del diario del 10/11 y 13/11: guion 2 de youtube/guiones-youtube.html. Los dos perdidos: mismo guion.",
+      "control": "APROBADO tras corrección 25/11"
+    },
+    {
+      "id": "t13-semana-evaluacion-hilo",
+      "fecha": "2026-12-02",
+      "hora": "09:00",
+      "tema": "Cuentas de fondeo",
+      "partes": [
+        "Una semana de mi evaluación de fondeo, del 16 al 20 de noviembre, contada sin cortes. Hilo corto.",
+        "Lunes 16: un trade en corto en el micro del S&P 500. +1,15R. Anoté: calmo, seguí el plan.\n\nMartes, miércoles y jueves: no entré. En el diario dice 'no dio entrada nunca'.",
+        "Viernes 20: mi intención del día era 'respetar mi plan, van tres días sin entradas'. Apareció mi patrón en corto y en un minuto estaba en el objetivo. +1,36R.",
+        "La semana: 2 trades, +2,5R, y en los dos anoté que seguí el plan. Tres días sin entrar, también anotados.\n\n¿Vos estás en una evaluación ahora? ¿En qué semana vas?"
+      ],
+      "por_que_trae_gente": "Curiosidad de serie (cómo sigue) + transparencia, que es lo que el público dice que falta + pregunta para los que están en la misma situación. El hilo suma vistas.",
+      "fuente": "Guion 1 de youtube/guiones-youtube.html con datos del diario: 16/11 MES corto +1,15R; 17-19/11 sin entrada; 20/11 ES corto +1,36R en un minuto (13:18 a 13:19); intención del día textual. No se nombra la firma ni montos."
+    },
+    {
+      "id": "t14-a-que-hora",
+      "fecha": "2026-12-02",
+      "hora": "20:30",
+      "tema": "Trading",
+      "partes": [
+        "Del 21 de octubre al 20 de noviembre, mis 13 trades con horario anotado fueron entre las 11:31 y las 16:23 de Argentina. La apertura de Nueva York hoy es a las 11:30.\n\nOjo en marzo: cuando Estados Unidos cambia la hora, la apertura pasa a las 10:30.\n\nPregunta para los que operan en Latinoamérica: ¿desde qué país lo hacés y a qué hora te sentás frente a la pantalla?\n\nQuiero ver cuántos estamos operando a la misma hora."
+      ],
+      "por_que_trae_gente": "Pertenencia (mapa de la comunidad) + pregunta muy fácil (país y hora) que abre la cuenta a todo Latinoamérica + dato útil.",
+      "fuente": "Carrusel s4-12-sabado: trades entre 11:31 y 16:23, apertura 11:30 ART y cambio a 10:30 en marzo.",
+      "control": "APROBADO tras corrección 25/11"
+    }
+  ]
+}

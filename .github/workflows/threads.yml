@@ -1,0 +1,41 @@
+name: Publicar en Threads
+on:
+  schedule:
+    # Cada 30 minutos de 8:13 a 23:43 ART (GitHub se atrasa: corre seguido y el script decide por la hora real).
+    - cron: "13,43 11-23 * * *"
+    - cron: "13,43 0-2 * * *"
+    # Lunes 10:21 ART: renovar la llave (dura 60 días)
+    - cron: "21 13 * * 1"
+  push:
+    branches: [main]
+    paths: [threads/posteos.json, threads/disparador.txt]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: threads   # nunca dos corridas a la vez: evita publicar dos veces lo mismo
+  cancel-in-progress: false
+jobs:
+  threads:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Renovar la llave (lunes)
+        if: ${{ github.event.schedule == '21 13 * * 1' }}
+        env:
+          THREADS_CLAVE: ${{ secrets.THREADS_CLAVE }}
+        run: python publicar_threads.py --renovar
+      - name: Publicar el posteo que toque
+        env:
+          THREADS_CLAVE: ${{ secrets.THREADS_CLAVE }}
+        run: python publicar_threads.py --auto
+      - name: Registrar
+        if: ${{ always() }}
+        run: |
+          git config user.name "publicador"
+          git config user.email "publicador@users.noreply.github.com"
+          git add threads/publicado.json threads/llave.enc
+          git diff --cached --quiet || (git commit -m "Threads: registro" && git pull --rebase -q && git push)

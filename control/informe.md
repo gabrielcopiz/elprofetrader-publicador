@@ -1,3 +1,7 @@
+### 2026-11-25 14:21 ART
+- Instagram revisado / OK (reel v05-acierto publicado; carrusel 3-miercoles aún no es su hora, 19:00)
+- Threads revisado / OK (t02-diez-minutos publicado; resto aún no es su hora)
+
 ### 2026-11-24 20:10 ART
 - Revisado: 1-lunes, 2-martes, v10-revancha
 - OK: 1-lunes, 2-martes, v10-revancha

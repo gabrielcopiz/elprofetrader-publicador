@@ -10,6 +10,10 @@ on:
     branches: [main]
     paths: [threads/posteos.json, threads/disparador.txt]
   workflow_dispatch:
+    inputs:
+      prueba_operativa:
+        description: "Solo prueba: muestra el texto de operativa de ese día (AAAA-MM-DD), no publica"
+        required: false
 permissions:
   contents: write
 concurrency:
@@ -28,7 +32,18 @@ jobs:
         env:
           THREADS_CLAVE: ${{ secrets.THREADS_CLAVE }}
         run: python publicar_threads.py --renovar
+      - name: Prueba de operativa (no publica)
+        if: ${{ inputs.prueba_operativa != '' }}
+        env:
+          DIARIO_KEY: ${{ secrets.DIARIO_KEY }}
+        run: python diario_threads.py --prueba ${{ inputs.prueba_operativa }}
+      - name: Agendar la operativa del día (desde las 19 ART, con los trades reales)
+        if: ${{ inputs.prueba_operativa == '' }}
+        env:
+          DIARIO_KEY: ${{ secrets.DIARIO_KEY }}
+        run: python diario_threads.py
       - name: Publicar el posteo que toque
+        if: ${{ inputs.prueba_operativa == '' }}
         env:
           THREADS_CLAVE: ${{ secrets.THREADS_CLAVE }}
         run: python publicar_threads.py --auto
@@ -37,5 +52,5 @@ jobs:
         run: |
           git config user.name "publicador"
           git config user.email "publicador@users.noreply.github.com"
-          git add threads/publicado.json threads/llave.enc
+          git add threads/publicado.json threads/llave.enc threads/posteos.json
           git diff --cached --quiet || (git commit -m "Threads: registro" && git pull --rebase -q && git push)

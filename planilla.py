@@ -50,7 +50,7 @@ def calcular(d, viernes):
             for t in del_dia:
                 r = puntos(t) / float(t["risk"]) if float(t.get("risk") or 0) else 0
                 res = "BE" if es_be(t) else f"{r:+.1f}R".replace(".", ",")
-                filas.append((DIAS[i], f"{t.get('setup','')} · {t.get('inst','')}", res))
+                filas.append((DIAS[i], f"{t.get('inst','')} en {'largo' if t.get('side') == 'long' else 'corto'}", res))  # sin nombre de setup (fundador 25/11)
         else:
             skip = (d.get("days", {}).get(f) or {}).get("skip")
             filas.append((DIAS[i], "No operé" + (f": {MOTIVO.get(skip.get('reason'), 'no operé')}" if skip else ""), "—"))

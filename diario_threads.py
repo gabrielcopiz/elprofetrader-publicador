@@ -1,7 +1,7 @@
 """Operativa del día en Threads: lee los trades REALES del Diario de Futuros y agenda el resumen del día.
 Uso: python diario_threads.py            -> si es día hábil y ya son las 19:00 ART, agrega "op-AAAA-MM-DD" a threads/posteos.json
      python diario_threads.py --prueba AAAA-MM-DD -> muestra el texto de ese día, sin agendar nada
-Reglas del fundador (25/11): después del cierre, nunca en vivo; plata permitida; sin número de cuenta ni firma;
+Reglas del fundador (25/11): sin el nombre del setup; después del cierre, nunca en vivo; plata permitida; sin número de cuenta ni firma;
 los días sin trade también (solo si él anotó el motivo); cierre "Mi diario, no una recomendación".
 Si el diario no responde o el día no tiene nada cargado, no hace nada (cero invento)."""
 import json, os, sys, datetime
@@ -28,7 +28,7 @@ def linea(t, n=None):
     plata = f"{'+' if usd >= 0 else '-'}USD {abs(usd):,.0f}".replace(",", ".")
     antes = (t.get("psy") or {}).get("before")
     partes = [f"{'Trade ' + str(n) + ': ' if n else ''}{NOMBRE.get(t.get('inst'), t.get('inst', ''))} en {lado}"
-              + (f", setup {t['setup']}" if t.get("setup") else "") + ".",
+              + ".",  # el nombre del setup NO se publica (pedido del fundador 25/11)
               f"Resultado: {res} · {plata} netos de comisión." if res else f"Resultado: {plata} netos de comisión.",
               ("Antes de entrar: " + (", ".join(antes) if isinstance(antes, list) else str(antes)).lower() + "." if antes else ""),
               "Seguí el plan: " + ("sí." if t.get("plan") else "no.")]

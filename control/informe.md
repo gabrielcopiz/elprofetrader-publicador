@@ -1,3 +1,7 @@
+### 2026-11-25 20:20 ART
+- Instagram revisado: OK (nada faltaba)
+- Threads revisado: OK (nada faltaba)
+
 ### 2026-11-25 19:21 ART
 - Instagram revisado / OK (carrusel 3-miercoles, v05-acierto y t02-trade-25nov publicados)
 - Threads revisado / OK (t02, op-2026-11-25, t00 y t04 publicados; nada pendiente)

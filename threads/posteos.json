@@ -338,11 +338,11 @@
       "hora": "19:00",
       "tema": "Trading",
       "partes": [
-        "Mi operativa de hoy, 25/11. Hoy no entré, y te cuento por qué.\n\nEsperé el desbalance en los deltas y me quedé esperando que el precio volviera a la línea amarilla que tenía marcada. No volvió: se fue directo al objetivo y me dejó afuera.\n\nOrden puesta, sin llenar. Ni ganancia ni pérdida.\n\nSi no me da mi entrada, no entro: somos traders, no apostadores.\n\nMi diario, no una recomendación.\n\n¿Te pasó de ver irse el precio sin vos? ¿Qué hiciste?"
+        "Mi operativa de hoy, 25/11.\n\nA las 14 esperé el desbalance en los deltas y que el precio volviera a mi línea. No volvió: orden sin llenar, me quedé afuera.\n\nA las 16 sí: compra de 2 MES en 7.183,50, stop en 7.177,25. Pérdida flotante máxima: 1,75 puntos. Cerré en 7.198,75 y 7.208,25, en mi línea: el precio la pasó unos 2 puntos y giró a la baja.\n\nResultado: +200 dólares brutos, +198 netos.\n\nMi diario, no una recomendación."
       ],
-      "fuente": "Dictado del fundador 25/11 14:08 + grabación de pantalla (orden límite sin llenar, posición Flat)",
+      "fuente": "Dictado del fundador 25/11 14:08 (sin entrada) + grabación y diario del trade 15:59 (+200 bruto, +198 neto)",
       "por_que_trae_gente": "Operativa real de un día sin entrada: paciencia y no perseguir el precio, con pregunta de cierre.",
-      "control": "APROBADO por profe-control-calidad 25/11 tras corregir 'target'/'retest' y sacar una frase no dicha"
+      "control": "APROBADO por profe-control-calidad 25/11 (texto del trade corregido: bruto/neto y salida exacta); sale a mano con el video del trade"
     }
   ]
 }

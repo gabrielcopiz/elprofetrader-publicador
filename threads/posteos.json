@@ -331,6 +331,18 @@
       "fuente": "Medir el riesgo en R para comparar trades: carrusel 4-jueves de la semana 1 (carruseles/semana1). Resultados en R: planilla del viernes (publicador/planilla.py, memoria 20/11). El resto es opinión, sin números de él.",
       "por_que_trae_gente": "Opinión con postura que se discute + concepto útil que posiciona al profe + pregunta de tres opciones, fácil de contestar.",
       "control": "APROBADO 25/11"
+    },
+    {
+      "id": "op-2026-11-25",
+      "fecha": "2026-11-25",
+      "hora": "19:00",
+      "tema": "Trading",
+      "partes": [
+        "Mi operativa de hoy, 25/11. Hoy no entré, y te cuento por qué.\n\nEsperé el desbalance en los deltas y me quedé esperando que el precio volviera a la línea amarilla que tenía marcada. No volvió: se fue directo al objetivo y me dejó afuera.\n\nOrden puesta, sin llenar. Ni ganancia ni pérdida.\n\nSi no me da mi entrada, no entro: somos traders, no apostadores.\n\nMi diario, no una recomendación.\n\n¿Te pasó de ver irse el precio sin vos? ¿Qué hiciste?"
+      ],
+      "fuente": "Dictado del fundador 25/11 14:08 + grabación de pantalla (orden límite sin llenar, posición Flat)",
+      "por_que_trae_gente": "Operativa real de un día sin entrada: paciencia y no perseguir el precio, con pregunta de cierre.",
+      "control": "APROBADO por profe-control-calidad 25/11 tras corregir 'target'/'retest' y sacar una frase no dicha"
     }
   ]
 }

@@ -1,3 +1,7 @@
+### 2026-11-25 18:20 ART
+- Instagram revisado / OK (carrusel 3-miercoles aún no es su hora, 19:00; el resto publicado)
+- Threads revisado / OK (nada pendiente cuya hora haya pasado)
+
 ### 2026-11-25 17:21 ART
 - Instagram revisado / OK (v05-acierto y t02-trade-25nov publicados; carrusel 3-miercoles aún no es su hora, 19:00)
 - Threads revisado / OK (t02, t00, t04 y op-2026-11-25 publicados; el resto es de fechas futuras)
@@ -25,3 +29,4 @@
 - OK: 1-lunes, 2-martes, v10-revancha
 - Faltaba y se disparó el robot: nada
 - Sigue faltando después de disparar: nada
+

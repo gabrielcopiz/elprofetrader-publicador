@@ -1,3 +1,7 @@
+### 2026-11-26 20:21 ART
+- Instagram revisado / OK
+- Threads revisado / OK (t3-02-acierto-mito de las 20:30 aún no vence)
+
 ### 2026-11-26 19:23 ART
 - Instagram faltaba (4-jueves, desde 19:00) y se disparó: publicado OK (DgOKnjBF6bC)
 - Threads revisado / OK (t3-02-acierto-mito es 20:30, aún no vence)

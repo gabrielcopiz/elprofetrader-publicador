@@ -1,3 +1,7 @@
+### 2026-11-26 15:20 ART
+- Instagram revisado / OK (v06-rachas publicado; 4-jueves es desde 19:00, aún no vence)
+- Threads revisado / OK (t3-01-feriado publicado; el próximo, 20:30, aún no vence)
+
 ### 2026-11-26 14:21 ART
 - Instagram revisado / OK (v06-rachas publicado; 4-jueves es desde 19:00, aún no vence)
 - Threads revisado / OK (t3-01-feriado de las 13:00 publicado; el próximo, 20:30, aún no vence)

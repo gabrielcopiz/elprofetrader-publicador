@@ -1,3 +1,7 @@
+### 2026-11-26 18:20 ART
+- Instagram revisado / OK (4-jueves es desde 19:00, aún no vence)
+- Threads revisado / OK (t3-02-acierto-mito es 20:30, aún no vence)
+
 ### 2026-11-26 17:20 ART
 - Instagram revisado / OK (4-jueves es desde 19:00, aún no vence)
 - Threads revisado / OK (t3-02-acierto-mito es 20:30, aún no vence)

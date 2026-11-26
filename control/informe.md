@@ -1,3 +1,7 @@
+### 2026-11-25 23:21 ART
+- Instagram revisado / OK (nada faltaba)
+- Threads revisado / OK (nada faltaba; lo restante es de fechas futuras)
+
 ### 2026-11-25 22:21 ART
 - Instagram revisado / OK (nada faltaba; lo de hoy y ayer está publicado)
 - Threads revisado / OK (nada faltaba; lo restante es de fechas futuras)

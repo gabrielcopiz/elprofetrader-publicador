@@ -1,3 +1,7 @@
+### 2026-11-27 10:20 ART
+- Instagram revisado / OK (nada pendiente; lo de hoy es más tarde)
+- Threads revisado / OK (nada pendiente)
+
 ### 2026-11-27 09:25 ART
 - Instagram revisado / OK (nada pendiente; 5-viernes y v07-muestra son de hoy más tarde)
 - Threads faltaba (t03-nota-por-el-movimiento, 09:00) y se disparó: publicado OK

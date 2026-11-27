@@ -595,6 +595,17 @@
       "por_que_trae_gente": "Tipo: pregunta a la comunidad. Oportuno (la noche del anuncio todos tienen algo para contar) y cambia la pregunta de siempre (\"¿ganaste?\") por una de proceso. Respuesta de una palabra, con invitación a contar más.",
       "fuente": "Fecha y hora del anuncio: calendario oficial de la Reserva Federal (ver t4-19). Criterio de decidirlo antes y no a las 16:01: carrusel s4-07-lunes (carruseles/semana4.py). Sin datos del fundador: no se dice qué hizo él ese día (eso sale, si corresponde, en su operativa de las 19:00).",
       "control": "APROBADO por control de calidad 27/11/2026"
+    },
+    {
+      "id": "op-2026-11-27",
+      "fecha": "2026-11-27",
+      "hora": "19:00",
+      "tema": "Trading",
+      "partes": [
+        "Hoy, 27/11, no operé: no apareció mi setup.\n\nTambién lo anoto en el diario. No entrar es parte del plan: somos traders, no apostadores.\n\nMi diario, no una recomendación.\n\n¿Vos cómo cerraste el día?"
+      ],
+      "fuente": "Diario de Futuros (trades reales del día, leídos por el robot)",
+      "por_que_trae_gente": "Prueba diaria y transparente (resultado real, también los días malos o sin trade) + pregunta de cierre."
     }
   ]
 }

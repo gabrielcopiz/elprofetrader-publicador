@@ -25,6 +25,14 @@ Este archivo se carga solo en cada sesión que abre este repo, en cualquier comp
 - No decir "en vivo" si el video no es en vivo.
 - Verificar lo que se afirma y decir qué quedó sin verificar.
 
+## Reglas para comentar en otras cuentas
+- Nunca comentar ni responder en `@watsontradingacademy`.
+- Cada comentario suma algo concreto (dato propio, experiencia, matiz o pregunta), 1 a 3 oraciones, respetuoso, sin enlaces, sin "seguime", sin señales.
+- Solo datos del fundador ya publicados en este repo (captions y `threads/posteos.json`). No inventar.
+- 5 a 10 por día por red, espaciados. Videos recién subidos y con pocos comentarios.
+- Ya comentados el 26/11: un reel de Chelo Psicotrading y uno de Alekay.
+- Las reglas completas de Threads (pregunta final, un tema, horarios, sin links) están en `threads/posteos.json`, campo `reglas`.
+
 ## Estrategia para crecer (acordada 26/11)
 1. Videos con su cara: cara, gancho y prueba real. De sus grabaciones salen 5 cortos y 5 clases.
 2. Comentar desde `@elprofetrader` en reels recién subidos de cuentas grandes de trading (ser el primer comentario), en Instagram, Threads y YouTube. Necesita un navegador logueado.

@@ -43,31 +43,6 @@
   ],
   "posteos": [
     {
-      "id": "t00-presentacion",
-      "fecha": "2026-11-25",
-      "hora": "20:30",
-      "tema": "Trading",
-      "partes": [
-        "Fui profe de Educación Física más de 20 años. Después de la pandemia dejé todo para operar futuros del S&P 500 y del Nasdaq.\n\nAcá voy a contar lo que casi nadie cuenta: las rachas, los stops, los días que no entro y lo que anoto antes de apretar el botón. Sin señales.\n\nArranco con una pregunta para los que operan: ¿cuántas cuentas quemaste hasta ahora? Decime el número."
-      ],
-      "por_que_trae_gente": "Identidad de tribu (el que quema cuentas se reconoce) + pratfall (arranca con un error propio) + pregunta de un número, la respuesta más fácil de dar.",
-      "fuente": "Perfil del fundador (memoria user_perfil_fundador, 18/11): ex profe +20 años, dejó todo post pandemia. Opera S&P 500 y Nasdaq (carrusel s4-28). Cuenta fondeada quemada: carrusel s3-1-lunes (autopsia). 'Sin señales': regla de la marca.",
-      "publicado": "2026-11-25 10:25 ART, a mano, tema Trading",
-      "control": "APROBADO 25/11"
-    },
-    {
-      "id": "t01-tres-de-tres",
-      "fecha": "2026-11-26",
-      "hora": "09:00",
-      "tema": "Psicotrading",
-      "partes": [
-        "Antes de cada trade anoto cómo estoy. Revisé mis 14 trades del 21 de octubre al 20 de noviembre.\n\nLas 3 veces que anoté duda, miedo o tensión, perdí. Las 3.\n\nY ojo, estar calmo tampoco te salva: calmo, de 11 gané 4, 2 quedaron en cero y perdí 5.\n\nTres trades no prueban nada. Pero lo tenía escrito antes de apretar el botón.\n\n¿Vos anotás cómo estás antes de entrar, o solo el resultado?"
-      ],
-      "por_que_trae_gente": "Sorpresa con dato propio (3 de 3) + pratfall (muestra las pérdidas estando calmo) + pregunta de elección entre dos opciones.",
-      "fuente": "Diario real, 14 trades 21/10 al 20/11: duda 29/10, miedo 10/11, tensión 13/11, los 3 perdidos; calmo 11: 4 ganados, 2 en cero, 5 perdidos (youtube/guiones-youtube.html, guion 2; carrusel s3-2-martes).",
-      "control": "APROBADO tras corrección 25/11"
-    },
-    {
       "id": "t02-diez-minutos",
       "fecha": "2026-11-25",
       "hora": "13:00",
@@ -79,15 +54,29 @@
       "fuente": "'Después de una pérdida me levanto 10 minutos': confirmado por el fundador el 23/11 (memoria project_marca_trading_referente). Definición de revancha: carrusel 2-martes (semana 1)."
     },
     {
-      "id": "t03-nota-por-el-movimiento",
-      "fecha": "2026-11-27",
-      "hora": "09:00",
+      "id": "op-2026-11-25",
+      "fecha": "2026-11-25",
+      "hora": "19:00",
       "tema": "Trading",
       "partes": [
-        "Opinión impopular: el día que ganás plata puede ser un mal día operando.\n\nCuando era profe no ponía la nota por el gol. La ponía por el movimiento.\n\nPor eso me pongo nota sobre 4: ¿puse el stop antes de entrar? ¿era mi setup? ¿respeté el límite? ¿anoté todo?\n\nSi ganaste rompiendo dos de esas, no fue un buen día. Fue suerte.\n\n¿Estás de acuerdo o te parece una exageración?"
+        "Mi operativa de hoy, 25/11.\n\nA las 14 esperé el desbalance en los deltas y que el precio volviera a mi línea. No volvió: orden sin llenar, me quedé afuera.\n\nA las 16 sí: compra de 2 MES en 7.183,50, stop en 7.177,25. Pérdida flotante máxima: 1,75 puntos. Cerré en 7.198,75 y 7.208,25, en mi línea: el precio la pasó unos 2 puntos y giró a la baja.\n\nResultado: +200 dólares brutos, +198 netos.\n\nMi diario, no una recomendación."
       ],
-      "por_que_trae_gente": "Opinión con postura (invita a discutir sin agredir a nadie) + autoridad de la historia de profe + pregunta de acuerdo o desacuerdo.",
-      "fuente": "Frase del gol: carrusel 5-viernes (semana 1). Nota sobre 4 (stop, setup, límite, anotó todo): planilla del viernes, publicador/planilla.py (memoria 20/11)."
+      "fuente": "Dictado del fundador 25/11 14:08 (sin entrada) + grabación y diario del trade 15:59 (+200 bruto, +198 neto)",
+      "por_que_trae_gente": "Operativa real de un día sin entrada: paciencia y no perseguir el precio, con pregunta de cierre.",
+      "control": "APROBADO por profe-control-calidad 25/11 (texto del trade corregido: bruto/neto y salida exacta); sale a mano con el video del trade"
+    },
+    {
+      "id": "t00-presentacion",
+      "fecha": "2026-11-25",
+      "hora": "20:30",
+      "tema": "Trading",
+      "partes": [
+        "Fui profe de Educación Física más de 20 años. Después de la pandemia dejé todo para operar futuros del S&P 500 y del Nasdaq.\n\nAcá voy a contar lo que casi nadie cuenta: las rachas, los stops, los días que no entro y lo que anoto antes de apretar el botón. Sin señales.\n\nArranco con una pregunta para los que operan: ¿cuántas cuentas quemaste hasta ahora? Decime el número."
+      ],
+      "por_que_trae_gente": "Identidad de tribu (el que quema cuentas se reconoce) + pratfall (arranca con un error propio) + pregunta de un número, la respuesta más fácil de dar.",
+      "fuente": "Perfil del fundador (memoria user_perfil_fundador, 18/11): ex profe +20 años, dejó todo post pandemia. Opera S&P 500 y Nasdaq (carrusel s4-28). Cuenta fondeada quemada: carrusel s3-1-lunes (autopsia). 'Sin señales': regla de la marca.",
+      "publicado": "2026-11-25 10:25 ART, a mano, tema Trading",
+      "control": "APROBADO 25/11"
     },
     {
       "id": "t04-quemada-y-rentable-hilo",
@@ -106,6 +95,77 @@
       "publicado": "2026-11-25 10:50 ART, a mano, hilo de 4 partes, tema Trading"
     },
     {
+      "id": "t01-tres-de-tres",
+      "fecha": "2026-11-26",
+      "hora": "09:00",
+      "tema": "Psicotrading",
+      "partes": [
+        "Antes de cada trade anoto cómo estoy. Revisé mis 14 trades del 21 de octubre al 20 de noviembre.\n\nLas 3 veces que anoté duda, miedo o tensión, perdí. Las 3.\n\nY ojo, estar calmo tampoco te salva: calmo, de 11 gané 4, 2 quedaron en cero y perdí 5.\n\nTres trades no prueban nada. Pero lo tenía escrito antes de apretar el botón.\n\n¿Vos anotás cómo estás antes de entrar, o solo el resultado?"
+      ],
+      "por_que_trae_gente": "Sorpresa con dato propio (3 de 3) + pratfall (muestra las pérdidas estando calmo) + pregunta de elección entre dos opciones.",
+      "fuente": "Diario real, 14 trades 21/10 al 20/11: duda 29/10, miedo 10/11, tensión 13/11, los 3 perdidos; calmo 11: 4 ganados, 2 en cero, 5 perdidos (youtube/guiones-youtube.html, guion 2; carrusel s3-2-martes).",
+      "control": "APROBADO tras corrección 25/11"
+    },
+    {
+      "id": "t3-01-feriado",
+      "fecha": "2026-11-26",
+      "hora": "13:00",
+      "tema": "Trading",
+      "partes": [
+        "Hoy es feriado en Estados Unidos: Acción de Gracias.\n\nEl 11 de noviembre también fue feriado allá (bancario). Abrí la plataforma y anoté en mi diario: \"había muy poco volumen\". No operé.\n\nHoy directamente no abro la plataforma.\n\nNo te digo qué hacer. Te cuento lo que hago yo, y el motivo queda anotado.\n\n¿Vos qué hacés en los feriados de Estados Unidos: operás, mirás o ni prendés la compu?"
+      ],
+      "fuente": "11/11 feriado bancario en EE. UU., frase textual del diario \"había muy poco volumen\" y no operó: carrusel s4-20-domingo (carruseles/semana4). Acción de Gracias = cuarto jueves de noviembre por ley federal de EE. UU. (26/11/2026).",
+      "por_que_trae_gente": "Oportuno (sale el mismo día del feriado, cuando todos se preguntan si operar) + confesión con frase textual del diario + pregunta de tres opciones, fácil de contestar.",
+      "control": "APROBADO 25/11"
+    },
+    {
+      "id": "t3-02-acierto-mito",
+      "fecha": "2026-11-26",
+      "hora": "20:30",
+      "tema": "Trading",
+      "partes": [
+        "Mito: para ganar en trading tenés que acertar más de la mitad de los trades.\n\nRealidad: depende de cuánto ganás cuando ganás.\n\nSi ganás lo mismo que arriesgás (1 a 1), necesitás acertar más del 50%.\nSi ganás el doble (1 a 2), alcanza con más del 33%.\n\nCon 40% de acierto: a 1 a 1 la cuenta da negativa. A 1 a 2, da positiva. (Sin contar comisiones.)\n\n¿Sabés tu porcentaje de acierto real, o lo calculás a ojo?"
+      ],
+      "fuente": "Cálculo matemático (punto de equilibrio = 1 / (1 + relación ganancia/riesgo)): carrusel s4-16-miercoles (carruseles/semana4). No es un dato de él.",
+      "por_que_trae_gente": "Sorpresa (rompe una creencia muy común del que empieza) + utilidad que se guarda y se comparte + pregunta que obliga a mirarse los números.",
+      "control": "APROBADO 25/11"
+    },
+    {
+      "id": "t03-nota-por-el-movimiento",
+      "fecha": "2026-11-27",
+      "hora": "09:00",
+      "tema": "Trading",
+      "partes": [
+        "Opinión impopular: el día que ganás plata puede ser un mal día operando.\n\nCuando era profe no ponía la nota por el gol. La ponía por el movimiento.\n\nPor eso me pongo nota sobre 4: ¿puse el stop antes de entrar? ¿era mi setup? ¿respeté el límite? ¿anoté todo?\n\nSi ganaste rompiendo dos de esas, no fue un buen día. Fue suerte.\n\n¿Estás de acuerdo o te parece una exageración?"
+      ],
+      "por_que_trae_gente": "Opinión con postura (invita a discutir sin agredir a nadie) + autoridad de la historia de profe + pregunta de acuerdo o desacuerdo.",
+      "fuente": "Frase del gol: carrusel 5-viernes (semana 1). Nota sobre 4 (stop, setup, límite, anotó todo): planilla del viernes, publicador/planilla.py (memoria 20/11)."
+    },
+    {
+      "id": "t3-03-lista-errores",
+      "fecha": "2026-11-27",
+      "hora": "13:00",
+      "tema": "Trading",
+      "partes": [
+        "En los comentarios de un video de trading de unas 50 mil vistas, un trader dejó su lista de errores:\n\n1. No respetar la pérdida diaria.\n2. Sobreoperar.\n3. Buscar un mejor punto de entrada sumando riesgo.\n4. No tener paciencia.\n5. Abrir el gráfico por la noche.\n\nCasi todos pasan en la cabeza, no en el gráfico.\n\n¿Cuál es el tuyo? Respondé con el número."
+      ],
+      "fuente": "Lista textual de un comentario en videos de 50 mil y 52 mil vistas analizados en la investigación del 23/11 (youtube/guiones-youtube.html, sección 'Quién comenta'). Opinión propia: 'casi ninguno es de técnica'.",
+      "por_que_trae_gente": "Identidad de tribu (el lector se reconoce en la lista, con el lenguaje del propio público) + mini-lista fácil de leer + respuesta de un número, la más barata de dar.",
+      "control": "APROBADO 25/11 tras corrección"
+    },
+    {
+      "id": "t3-04-consistencia-divide",
+      "fecha": "2026-11-27",
+      "hora": "20:30",
+      "tema": "Trading",
+      "partes": [
+        "Pregunta que divide: ¿te parece justa la regla de consistencia de las cuentas de fondeo?\n\nLa idea: ningún día puede pesar más de cierto porcentaje de lo que ganaste en total. En mi evaluación actual, el 50%. Cada firma la define distinto.\n\nEn la mía, un día enorme no te descalifica: te obliga a seguir operando hasta que ese día pese menos.\n\nYo la entiendo así: quieren ver que lo podés repetir, no un día de suerte. Somos traders, no apostadores.\n\n¿Justa o trampa? Una palabra."
+      ],
+      "fuente": "Regla de consistencia del 50% en su evaluación actual y que un día grande obliga a seguir operando: carrusel s4-06-domingo (carruseles/semana4). Sin nombrar la firma. 'Somos traders, no apostadores': pedido del fundador 25/11 (memoria feedback_profe_trader_trader_no_apostador).",
+      "por_que_trae_gente": "Pregunta con dos bandos (justa o trampa) que invita a discutir + tema de fondeo, el de más demanda medida (investigación 23/11) + respuesta de una palabra.",
+      "control": "APROBADO 25/11"
+    },
+    {
       "id": "t05-cual-futuro",
       "fecha": "2026-11-28",
       "hora": "10:30",
@@ -115,6 +175,20 @@
       ],
       "por_que_trae_gente": "Utilidad para el que empieza (lo que más se busca es cripto) + pregunta de elección que cualquiera puede contestar, incluso el que no opera.",
       "fuente": "Carrusel s4-28-sabado (CME vs perpetuos, tasa cada 8 horas) y s4-05-sabado (vencimiento del contrato de diciembre el viernes 18/12)."
+    },
+    {
+      "id": "t3-05-stop-en-plata-hilo",
+      "fecha": "2026-11-28",
+      "hora": "13:00",
+      "tema": "Trading",
+      "partes": [
+        "Antes de tu primer trade en futuros tenés que poder contestar esto: ¿cuánta plata es tu stop?\n\nNo en puntos. En plata.\n\nTe lo explico en 3 partes, con un trade real de mi diario.",
+        "En los futuros del S&P 500 el precio se mueve de a 0,25 puntos. Eso es un tick.\n\nEn el contrato grande (ES), un tick vale 12,50 dólares. En el micro (MES), 1,25. Mismo gráfico, una décima parte de la plata.\n\nLos valores son de CME, la bolsa de futuros de Chicago.",
+        "El 20 de noviembre mi stop fue de 5,5 puntos. Son 22 ticks: 275 dólares por contrato en el grande, 27,50 en el micro.\n\nPor eso el orden es: primero cuánto vas a arriesgar, después dónde va el stop según el gráfico, y recién ahí cuántos contratos.\n\n¿Vos sabés cuánto es tu stop en plata antes de entrar, o te enterás después?"
+      ],
+      "fuente": "Tick de 0,25 puntos, ES 12,50 USD y MES 1,25 USD por tick: especificaciones de contrato de CME Group (guion 5 de youtube/guiones-youtube.html y carrusel s3-4-jueves). Stop del 20/11 de 5,5 puntos = 22 ticks = 275 USD en ES y 27,50 en MES: diario real, guion 5. Orden riesgo → stop → contratos: carrusel s4-14-lunes.",
+      "por_que_trae_gente": "Utilidad para el que empieza (búsquedas 'qué es un tick' y 'micro futuros' en el autocompletado, investigación 23/11) + ejemplo real con números + el hilo suma vistas.",
+      "control": "APROBADO 25/11"
     },
     {
       "id": "t06-ochenta-y-nueve-minutos",
@@ -140,6 +214,18 @@
       "fuente": "Perfil del fundador (memoria 18/11). 'Anoto hasta los días que no entro': carrusel s4-29-domingo. Público que lleva 3-4 años: comentarios analizados en youtube/guiones-youtube.html (investigación 23/11)."
     },
     {
+      "id": "t3-06-cuatro-alarmas",
+      "fecha": "2026-11-29",
+      "hora": "13:00",
+      "tema": "Trading",
+      "partes": [
+        "Antes de abrir la plataforma me hago 4 preguntas: cómo dormí, cuánta energía tengo, cuánto estrés y cómo tengo la cabeza.\n\nY tengo 4 alarmas: dormir menos de 6 horas, estrés en 4 o más, energía en 2 o menos, cabeza revuelta.\n\nEn 16 días anotados no se prendió ninguna. Y aun así hubo trades en los que entré con duda o miedo. El chequeo del día no reemplaza al de antes de cada trade.\n\nPregunta fácil: ¿cuántas horas dormiste anoche? Decime el número."
+      ],
+      "fuente": "4 preguntas, 4 alarmas (menos de 6 h de sueño, estrés 4 o más, energía 2 o menos, cabeza revuelta), ninguna prendida en 16 días y trades con duda o miedo igual: carrusel s4-15-martes (carruseles/semana4), datos del diario.",
+      "por_que_trae_gente": "Dato del diario con transparencia (muestra que su propio chequeo no alcanza) + pregunta de un número que cualquiera puede contestar un domingo, opere o no.",
+      "control": "APROBADO 25/11"
+    },
+    {
       "id": "t08-siete-dias",
       "fecha": "2026-11-29",
       "hora": "20:00",
@@ -160,6 +246,18 @@
       ],
       "por_que_trae_gente": "Dato que sorprende con fuente oficial + postura clara + pregunta que obliga a contar la experiencia propia (respuestas largas). Fondeo = el tema con más demanda medida.",
       "fuente": "0,71%: estadísticas oficiales de Topstep 2025 (verificado 24/11, memoria project_profe_trader_referentes_emular). 'Examen con reglas': carrusel s2-3-miercoles. Demanda fondeo 197-209 mil vistas: investigación 23/11."
+    },
+    {
+      "id": "t3-07-dia-de-la-fed",
+      "fecha": "2026-11-30",
+      "hora": "13:00",
+      "tema": "Trading",
+      "partes": [
+        "El miércoles 9 de diciembre, a las 16 de Argentina, la Reserva Federal de Estados Unidos anuncia la tasa de interés.\n\nLa última vez fue el 28 de octubre. Ese día no operé: el mercado estuvo lento hasta el anuncio y después se movió con mucho volumen y zonas muy amplias.\n\nNo es una regla para vos. Es lo que hice y por qué.\n\nY vos, el día del anuncio de la Reserva Federal, ¿operás o te quedás afuera?"
+      ],
+      "fuente": "Anuncio de la Fed el 9/12 a las 16 ART y el 28/10 sin operar (mercado lento y después mucho volumen y zonas amplias): carrusel s4-07-lunes (carruseles/semana4). 28/10 figura entre los días 'no operé, sin señal' del diario (guion 3 de youtube/guiones-youtube.html).",
+      "por_que_trae_gente": "Dato útil con fecha que se guarda (el que opera necesita saberlo) + postura personal sin recomendar + pregunta de dos bandos.",
+      "control": "APROBADO 25/11"
     },
     {
       "id": "t10-seis-de-noviembre",
@@ -183,6 +281,18 @@
       "por_que_trae_gente": "Pregunta de una palabra (la respuesta más barata posible) + pratfall (admite el de sensación) + reciprocidad (él confiesa primero).",
       "fuente": "Trades del 29/10 y 12/11 en break-even, por plan y por sensación: carrusel s2-2-martes (memoria 20/11). Regla de la planilla: mover el stop, aunque sea a break-even, cuenta como falla (memoria 20/11, planilla.py).",
       "control": "APROBADO tras corrección 25/11"
+    },
+    {
+      "id": "t3-08-solo-ganancias",
+      "fecha": "2026-12-01",
+      "hora": "13:00",
+      "tema": "Trading",
+      "partes": [
+        "En un video de trading de unas 50 mil vistas, un comentario dice: \"en internet solo muestran las ganancias sin decir lo que se invierte\".\n\nTiene razón. Una ganancia sola no dice nada: no sabés cuánto arriesgó ni cuántas veces perdió antes.\n\nPor eso acá vas a ver también mis stops y los días que me quedo afuera, con el motivo anotado.\n\nPregunta honesta: ¿le creés a alguien que solo muestra ganancias? Sí o no."
+      ],
+      "fuente": "Comentario textual con 17 me gusta en los videos analizados (50 mil y 52 mil vistas), investigación del 23/11 (youtube/guiones-youtube.html, 'Quién comenta' y guion 1). Trades perdidos y días sin entrar ya publicados: t01, t10, t12, t08.",
+      "por_que_trae_gente": "Pertenencia (usa la queja textual del público) + diferenciación contra los que solo muestran ganancias + pregunta de sí o no que divide.",
+      "control": "APROBADO 25/11 tras corrección"
     },
     {
       "id": "t12-la-palabra-igual",
@@ -211,116 +321,6 @@
       "fuente": "Guion 1 de youtube/guiones-youtube.html con datos del diario: 16/11 MES corto +1,15R; 17-19/11 sin entrada; 20/11 ES corto +1,36R en un minuto (13:18 a 13:19); intención del día textual. No se nombra la firma ni montos."
     },
     {
-      "id": "t14-a-que-hora",
-      "fecha": "2026-12-02",
-      "hora": "20:30",
-      "tema": "Trading",
-      "partes": [
-        "Del 21 de octubre al 20 de noviembre, mis 13 trades con horario anotado fueron entre las 11:31 y las 16:23 de Argentina. La apertura de Nueva York hoy es a las 11:30.\n\nOjo en marzo: cuando Estados Unidos cambia la hora, la apertura pasa a las 10:30.\n\nPregunta para los que operan en Latinoamérica: ¿desde qué país lo hacés y a qué hora te sentás frente a la pantalla?\n\nQuiero ver cuántos estamos operando a la misma hora."
-      ],
-      "por_que_trae_gente": "Pertenencia (mapa de la comunidad) + pregunta muy fácil (país y hora) que abre la cuenta a todo Latinoamérica + dato útil.",
-      "fuente": "Carrusel s4-12-sabado: trades entre 11:31 y 16:23, apertura 11:30 ART y cambio a 10:30 en marzo.",
-      "control": "APROBADO tras corrección 25/11"
-    },
-    {
-      "id": "t3-01-feriado",
-      "fecha": "2026-11-26",
-      "hora": "13:00",
-      "tema": "Trading",
-      "partes": [
-        "Hoy es feriado en Estados Unidos: Acción de Gracias.\n\nEl 11 de noviembre también fue feriado allá (bancario). Abrí la plataforma y anoté en mi diario: \"había muy poco volumen\". No operé.\n\nHoy directamente no abro la plataforma.\n\nNo te digo qué hacer. Te cuento lo que hago yo, y el motivo queda anotado.\n\n¿Vos qué hacés en los feriados de Estados Unidos: operás, mirás o ni prendés la compu?"
-      ],
-      "fuente": "11/11 feriado bancario en EE. UU., frase textual del diario \"había muy poco volumen\" y no operó: carrusel s4-20-domingo (carruseles/semana4). Acción de Gracias = cuarto jueves de noviembre por ley federal de EE. UU. (26/11/2026).",
-      "por_que_trae_gente": "Oportuno (sale el mismo día del feriado, cuando todos se preguntan si operar) + confesión con frase textual del diario + pregunta de tres opciones, fácil de contestar.",
-      "control": "APROBADO 25/11"
-    },
-    {
-      "id": "t3-02-acierto-mito",
-      "fecha": "2026-11-26",
-      "hora": "20:30",
-      "tema": "Trading",
-      "partes": [
-        "Mito: para ganar en trading tenés que acertar más de la mitad de los trades.\n\nRealidad: depende de cuánto ganás cuando ganás.\n\nSi ganás lo mismo que arriesgás (1 a 1), necesitás acertar más del 50%.\nSi ganás el doble (1 a 2), alcanza con más del 33%.\n\nCon 40% de acierto: a 1 a 1 la cuenta da negativa. A 1 a 2, da positiva. (Sin contar comisiones.)\n\n¿Sabés tu porcentaje de acierto real, o lo calculás a ojo?"
-      ],
-      "fuente": "Cálculo matemático (punto de equilibrio = 1 / (1 + relación ganancia/riesgo)): carrusel s4-16-miercoles (carruseles/semana4). No es un dato de él.",
-      "por_que_trae_gente": "Sorpresa (rompe una creencia muy común del que empieza) + utilidad que se guarda y se comparte + pregunta que obliga a mirarse los números.",
-      "control": "APROBADO 25/11"
-    },
-    {
-      "id": "t3-03-lista-errores",
-      "fecha": "2026-11-27",
-      "hora": "13:00",
-      "tema": "Trading",
-      "partes": [
-        "En los comentarios de un video de trading de unas 50 mil vistas, un trader dejó su lista de errores:\n\n1. No respetar la pérdida diaria.\n2. Sobreoperar.\n3. Buscar un mejor punto de entrada sumando riesgo.\n4. No tener paciencia.\n5. Abrir el gráfico por la noche.\n\nCasi todos pasan en la cabeza, no en el gráfico.\n\n¿Cuál es el tuyo? Respondé con el número."
-      ],
-      "fuente": "Lista textual de un comentario en videos de 50 mil y 52 mil vistas analizados en la investigación del 23/11 (youtube/guiones-youtube.html, sección 'Quién comenta'). Opinión propia: 'casi ninguno es de técnica'.",
-      "por_que_trae_gente": "Identidad de tribu (el lector se reconoce en la lista, con el lenguaje del propio público) + mini-lista fácil de leer + respuesta de un número, la más barata de dar.",
-      "control": "APROBADO 25/11 tras corrección"
-    },
-    {
-      "id": "t3-04-consistencia-divide",
-      "fecha": "2026-11-27",
-      "hora": "20:30",
-      "tema": "Trading",
-      "partes": [
-        "Pregunta que divide: ¿te parece justa la regla de consistencia de las cuentas de fondeo?\n\nLa idea: ningún día puede pesar más de cierto porcentaje de lo que ganaste en total. En mi evaluación actual, el 50%. Cada firma la define distinto.\n\nEn la mía, un día enorme no te descalifica: te obliga a seguir operando hasta que ese día pese menos.\n\nYo la entiendo así: quieren ver que lo podés repetir, no un día de suerte. Somos traders, no apostadores.\n\n¿Justa o trampa? Una palabra."
-      ],
-      "fuente": "Regla de consistencia del 50% en su evaluación actual y que un día grande obliga a seguir operando: carrusel s4-06-domingo (carruseles/semana4). Sin nombrar la firma. 'Somos traders, no apostadores': pedido del fundador 25/11 (memoria feedback_profe_trader_trader_no_apostador).",
-      "por_que_trae_gente": "Pregunta con dos bandos (justa o trampa) que invita a discutir + tema de fondeo, el de más demanda medida (investigación 23/11) + respuesta de una palabra.",
-      "control": "APROBADO 25/11"
-    },
-    {
-      "id": "t3-05-stop-en-plata-hilo",
-      "fecha": "2026-11-28",
-      "hora": "13:00",
-      "tema": "Trading",
-      "partes": [
-        "Antes de tu primer trade en futuros tenés que poder contestar esto: ¿cuánta plata es tu stop?\n\nNo en puntos. En plata.\n\nTe lo explico en 3 partes, con un trade real de mi diario.",
-        "En los futuros del S&P 500 el precio se mueve de a 0,25 puntos. Eso es un tick.\n\nEn el contrato grande (ES), un tick vale 12,50 dólares. En el micro (MES), 1,25. Mismo gráfico, una décima parte de la plata.\n\nLos valores son de CME, la bolsa de futuros de Chicago.",
-        "El 20 de noviembre mi stop fue de 5,5 puntos. Son 22 ticks: 275 dólares por contrato en el grande, 27,50 en el micro.\n\nPor eso el orden es: primero cuánto vas a arriesgar, después dónde va el stop según el gráfico, y recién ahí cuántos contratos.\n\n¿Vos sabés cuánto es tu stop en plata antes de entrar, o te enterás después?"
-      ],
-      "fuente": "Tick de 0,25 puntos, ES 12,50 USD y MES 1,25 USD por tick: especificaciones de contrato de CME Group (guion 5 de youtube/guiones-youtube.html y carrusel s3-4-jueves). Stop del 20/11 de 5,5 puntos = 22 ticks = 275 USD en ES y 27,50 en MES: diario real, guion 5. Orden riesgo → stop → contratos: carrusel s4-14-lunes.",
-      "por_que_trae_gente": "Utilidad para el que empieza (búsquedas 'qué es un tick' y 'micro futuros' en el autocompletado, investigación 23/11) + ejemplo real con números + el hilo suma vistas.",
-      "control": "APROBADO 25/11"
-    },
-    {
-      "id": "t3-06-cuatro-alarmas",
-      "fecha": "2026-11-29",
-      "hora": "13:00",
-      "tema": "Trading",
-      "partes": [
-        "Antes de abrir la plataforma me hago 4 preguntas: cómo dormí, cuánta energía tengo, cuánto estrés y cómo tengo la cabeza.\n\nY tengo 4 alarmas: dormir menos de 6 horas, estrés en 4 o más, energía en 2 o menos, cabeza revuelta.\n\nEn 16 días anotados no se prendió ninguna. Y aun así hubo trades en los que entré con duda o miedo. El chequeo del día no reemplaza al de antes de cada trade.\n\nPregunta fácil: ¿cuántas horas dormiste anoche? Decime el número."
-      ],
-      "fuente": "4 preguntas, 4 alarmas (menos de 6 h de sueño, estrés 4 o más, energía 2 o menos, cabeza revuelta), ninguna prendida en 16 días y trades con duda o miedo igual: carrusel s4-15-martes (carruseles/semana4), datos del diario.",
-      "por_que_trae_gente": "Dato del diario con transparencia (muestra que su propio chequeo no alcanza) + pregunta de un número que cualquiera puede contestar un domingo, opere o no.",
-      "control": "APROBADO 25/11"
-    },
-    {
-      "id": "t3-07-dia-de-la-fed",
-      "fecha": "2026-11-30",
-      "hora": "13:00",
-      "tema": "Trading",
-      "partes": [
-        "El miércoles 9 de diciembre, a las 16 de Argentina, la Reserva Federal de Estados Unidos anuncia la tasa de interés.\n\nLa última vez fue el 28 de octubre. Ese día no operé: el mercado estuvo lento hasta el anuncio y después se movió con mucho volumen y zonas muy amplias.\n\nNo es una regla para vos. Es lo que hice y por qué.\n\nY vos, el día del anuncio de la Reserva Federal, ¿operás o te quedás afuera?"
-      ],
-      "fuente": "Anuncio de la Fed el 9/12 a las 16 ART y el 28/10 sin operar (mercado lento y después mucho volumen y zonas amplias): carrusel s4-07-lunes (carruseles/semana4). 28/10 figura entre los días 'no operé, sin señal' del diario (guion 3 de youtube/guiones-youtube.html).",
-      "por_que_trae_gente": "Dato útil con fecha que se guarda (el que opera necesita saberlo) + postura personal sin recomendar + pregunta de dos bandos.",
-      "control": "APROBADO 25/11"
-    },
-    {
-      "id": "t3-08-solo-ganancias",
-      "fecha": "2026-12-01",
-      "hora": "13:00",
-      "tema": "Trading",
-      "partes": [
-        "En un video de trading de unas 50 mil vistas, un comentario dice: \"en internet solo muestran las ganancias sin decir lo que se invierte\".\n\nTiene razón. Una ganancia sola no dice nada: no sabés cuánto arriesgó ni cuántas veces perdió antes.\n\nPor eso acá vas a ver también mis stops y los días que me quedo afuera, con el motivo anotado.\n\nPregunta honesta: ¿le creés a alguien que solo muestra ganancias? Sí o no."
-      ],
-      "fuente": "Comentario textual con 17 me gusta en los videos analizados (50 mil y 52 mil vistas), investigación del 23/11 (youtube/guiones-youtube.html, 'Quién comenta' y guion 1). Trades perdidos y días sin entrar ya publicados: t01, t10, t12, t08.",
-      "por_que_trae_gente": "Pertenencia (usa la queja textual del público) + diferenciación contra los que solo muestran ganancias + pregunta de sí o no que divide.",
-      "control": "APROBADO 25/11 tras corrección"
-    },
-    {
       "id": "t3-09-plata-o-r",
       "fecha": "2026-12-02",
       "hora": "13:00",
@@ -333,16 +333,16 @@
       "control": "APROBADO 25/11"
     },
     {
-      "id": "op-2026-11-25",
-      "fecha": "2026-11-25",
-      "hora": "19:00",
+      "id": "t14-a-que-hora",
+      "fecha": "2026-12-02",
+      "hora": "20:30",
       "tema": "Trading",
       "partes": [
-        "Mi operativa de hoy, 25/11.\n\nA las 14 esperé el desbalance en los deltas y que el precio volviera a mi línea. No volvió: orden sin llenar, me quedé afuera.\n\nA las 16 sí: compra de 2 MES en 7.183,50, stop en 7.177,25. Pérdida flotante máxima: 1,75 puntos. Cerré en 7.198,75 y 7.208,25, en mi línea: el precio la pasó unos 2 puntos y giró a la baja.\n\nResultado: +200 dólares brutos, +198 netos.\n\nMi diario, no una recomendación."
+        "Del 21 de octubre al 20 de noviembre, mis 13 trades con horario anotado fueron entre las 11:31 y las 16:23 de Argentina. La apertura de Nueva York hoy es a las 11:30.\n\nOjo en marzo: cuando Estados Unidos cambia la hora, la apertura pasa a las 10:30.\n\nPregunta para los que operan en Latinoamérica: ¿desde qué país lo hacés y a qué hora te sentás frente a la pantalla?\n\nQuiero ver cuántos estamos operando a la misma hora."
       ],
-      "fuente": "Dictado del fundador 25/11 14:08 (sin entrada) + grabación y diario del trade 15:59 (+200 bruto, +198 neto)",
-      "por_que_trae_gente": "Operativa real de un día sin entrada: paciencia y no perseguir el precio, con pregunta de cierre.",
-      "control": "APROBADO por profe-control-calidad 25/11 (texto del trade corregido: bruto/neto y salida exacta); sale a mano con el video del trade"
+      "por_que_trae_gente": "Pertenencia (mapa de la comunidad) + pregunta muy fácil (país y hora) que abre la cuenta a todo Latinoamérica + dato útil.",
+      "fuente": "Carrusel s4-12-sabado: trades entre 11:31 y 16:23, apertura 11:30 ART y cambio a 10:30 en marzo.",
+      "control": "APROBADO tras corrección 25/11"
     },
     {
       "id": "t4-01-tres-miedos",
@@ -415,6 +415,18 @@
       "por_que_trae_gente": "Tipo: pregunta a la comunidad. Respuesta de dos números (muy barata de dar) y sin mostrar plata, que es lo que el público dice que sobra en redes. Puede repetirse cada viernes como costumbre de la cuenta.",
       "fuente": "Sin números del fundador. Criterio de medir el proceso y no la plata, y de contar el stop movido como falla: planilla del viernes (publicador/planilla.py; memoria project_marca_trading_referente, 20/11) y carrusel 5-viernes (carruseles/semana1.py). Queja del público \"solo muestran las ganancias\": youtube/guiones-youtube.html (investigación 23/11).",
       "control": "APROBADO por control de calidad 27/11/2026"
+    },
+    {
+      "id": "t4-07-barras-de-contratos",
+      "fecha": "2026-12-05",
+      "hora": "10:30",
+      "tema": "Futuros",
+      "partes": [
+        "Casi todos los gráficos que ves en redes son de tiempo: una vela cada 1 minuto, cada 5 minutos. Pase mucho o no pase nada, la vela dura lo mismo.\n\nHay otra forma de armarlo: que cada barra se cierre cuando se negoció una cantidad fija de contratos.\n\nMercado activo: aparecen muchas barras. Mercado quieto: casi ninguna.\n\nYo opero con barras de contratos. No es una fórmula mágica: es otra manera de mirar el mismo precio.\n\n¿Habías visto alguna vez un gráfico que no fuera de tiempo?"
+      ],
+      "por_que_trae_gente": "Tipo: explicación simple para el que arranca. Sorpresa (casi nadie lo vio) y es el diferencial que nombró el propio fundador. Pregunta de sí o no que cualquiera contesta.",
+      "fuente": "\"Opero barras de contratos, hay muy pocos en internet que operen de esta manera\": dicho por el fundador el 26/11 (memoria project_marca_trading_referente). Cómo se forma una barra de contratos: definición general de ese tipo de gráfico, la misma de youtube/serie-futuros.html (clase 3). No se dice cuántos contratos usa por barra ni por qué: eso no está escrito en el proyecto.",
+      "control": "APROBADO 27/11/2026: el fundador confirmó que su barra es de contratos"
     },
     {
       "id": "t4-08-fin-de-semana",

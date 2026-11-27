@@ -1,3 +1,7 @@
+### 2026-11-27 11:20 ART
+- Instagram revisado / OK (lo de hoy aún no vence: reel 12:30, carrusel 19:00; ayer todo publicado)
+- Threads revisado / OK (ayer y t03 de hoy publicados; t3-03 13:00 y t3-04 20:30 aún no vencen)
+
 ### 2026-11-27 10:20 ART
 - Instagram revisado / OK (nada pendiente; lo de hoy es más tarde)
 - Threads revisado / OK (nada pendiente)

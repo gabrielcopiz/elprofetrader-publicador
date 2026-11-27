@@ -1,3 +1,7 @@
+### 2026-11-26 23:20 ART
+- Instagram revisado / OK (nada pendiente; lo del 27/11 es de mañana)
+- Threads revisado / OK (nada pendiente; t03, t3-03 y t3-04 son de mañana)
+
 ### 2026-11-26 22:20 ART
 - Instagram revisado / OK (nada pendiente; 5-viernes y v07-muestra son de mañana)
 - Threads revisado / OK (nada pendiente; t03 y t3-03 son de mañana)

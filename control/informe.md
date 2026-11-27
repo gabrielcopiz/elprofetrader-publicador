@@ -1,3 +1,7 @@
+### 2026-11-27 13:34 ART
+- Instagram faltaba (v07-muestra, reel 12:30) y se disparó 2 veces: publicado OK (5-viernes vence 19:00)
+- Threads faltaba (t3-03-lista-errores, 13:00) y se disparó: publicado OK (t3-04 20:30 aún no vence)
+
 ### 2026-11-27 12:20 ART
 - Instagram revisado / OK (ayer todo publicado; reel de hoy 12:30 y carrusel 19:00 aún no vencen)
 - Threads revisado / OK (ayer y t03 de hoy publicados; t3-03 13:00 y t3-04 20:30 aún no vencen)
@@ -113,10 +117,4 @@
 ### 2026-11-25 14:21 ART
 - Instagram revisado / OK (reel v05-acierto publicado; carrusel 3-miercoles aún no es su hora, 19:00)
 - Threads revisado / OK (t02-diez-minutos publicado; resto aún no es su hora)
-
-### 2026-11-24 20:10 ART
-- Revisado: 1-lunes, 2-martes, v10-revancha
-- OK: 1-lunes, 2-martes, v10-revancha
-- Faltaba y se disparó el robot: nada
-- Sigue faltando después de disparar: nada
 

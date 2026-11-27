@@ -1,3 +1,7 @@
+### 2026-11-27 12:20 ART
+- Instagram revisado / OK (ayer todo publicado; reel de hoy 12:30 y carrusel 19:00 aún no vencen)
+- Threads revisado / OK (ayer y t03 de hoy publicados; t3-03 13:00 y t3-04 20:30 aún no vencen)
+
 ### 2026-11-27 11:20 ART
 - Instagram revisado / OK (lo de hoy aún no vence: reel 12:30, carrusel 19:00; ayer todo publicado)
 - Threads revisado / OK (ayer y t03 de hoy publicados; t3-03 13:00 y t3-04 20:30 aún no vencen)
@@ -111,12 +115,6 @@
 - Threads revisado / OK (t02-diez-minutos publicado; resto aún no es su hora)
 
 ### 2026-11-24 20:10 ART
-- Revisado: 1-lunes, 2-martes, v10-revancha
-- OK: 1-lunes, 2-martes, v10-revancha
-- Faltaba y se disparó el robot: nada
-- Sigue faltando después de disparar: nada
-
-### 2026-11-24 19:43 ART
 - Revisado: 1-lunes, 2-martes, v10-revancha
 - OK: 1-lunes, 2-martes, v10-revancha
 - Faltaba y se disparó el robot: nada

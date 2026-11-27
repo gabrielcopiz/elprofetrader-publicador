@@ -343,6 +343,246 @@
       "fuente": "Dictado del fundador 25/11 14:08 (sin entrada) + grabación y diario del trade 15:59 (+200 bruto, +198 neto)",
       "por_que_trae_gente": "Operativa real de un día sin entrada: paciencia y no perseguir el precio, con pregunta de cierre.",
       "control": "APROBADO por profe-control-calidad 25/11 (texto del trade corregido: bruto/neto y salida exacta); sale a mano con el video del trade"
+    },
+    {
+      "id": "t4-01-tres-miedos",
+      "fecha": "2026-12-03",
+      "hora": "09:00",
+      "tema": "Psicotrading",
+      "partes": [
+        "El miedo a perder no es uno solo. Son tres, y cada uno te hace hacer algo distinto.\n\n1. Antes de entrar: ves tu setup y no apretás el botón.\n2. Adentro del trade: cerrás antes de tiempo o corrés el stop.\n3. Después de un stop: el próximo trade no lo tomás, o lo tomás para recuperar.\n\nDecir \"tengo miedo\" no te sirve de mucho. Saber cuál de los tres es, sí.\n\n¿Cuál es el tuyo? 1, 2 o 3."
+      ],
+      "por_que_trae_gente": "Tipo: idea de psicotrading. Toma la búsqueda de psicología con más demanda medida (\"miedo a perder en el trading\": videos de 40 mil y 8,2 mil vistas) y la baja a tres situaciones que el trader reconoce. Identidad de tribu + respuesta de un número.",
+      "fuente": "Sin datos del fundador. La división en tres momentos es un ordenamiento editorial de la pieza, no una estadística. Demanda: youtube/guiones-youtube.html (investigación 23/11), fila Psicología y guion 2; búsqueda \"miedo a perder en el trading\" en investigacion/2026-11-23/autocompletar.json.",
+      "control": "APROBADO por control de calidad 27/11/2026"
+    },
+    {
+      "id": "t4-02-diez-puntos",
+      "fecha": "2026-12-03",
+      "hora": "13:00",
+      "tema": "Futuros",
+      "partes": [
+        "10 puntos no valen lo mismo en todos los futuros.\n\nSi el precio se mueve 10 puntos y tenés 1 contrato:\n\nS&P 500 grande (ES): 500 dólares.\nS&P 500 micro (MES): 50.\nNasdaq grande (NQ): 200.\nNasdaq micro (MNQ): 20.\n\nPor eso \"arriesgo 10 puntos\" no dice nada si no decís en qué contrato. Los valores son de CME, la bolsa de futuros de Chicago.\n\nSi estás empezando: ¿cuál mirás, S&P 500 o Nasdaq? ¿Por qué ese?"
+      ],
+      "por_que_trae_gente": "Tipo: explicación simple para el que arranca. Utilidad que se guarda (tabla de cuatro contratos) sobre búsquedas reales: \"micro futuros sp500\", \"micro nasdaq\", \"trading futuros nasdaq\". Pregunta de elección que puede contestar el que todavía no opera.",
+      "fuente": "Valor del punto ES 50, MES 5, NQ 20 y MNQ 2 dólares: especificaciones de contrato de CME Group, ya citadas en carruseles/semana3.py (s3-4-jueves). Cuenta de 10 puntos: threads/calculos-posteos-2026-12-03-al-09.py. Búsquedas: investigacion/2026-11-23/autocompletar.json. Sin datos del fundador (no se afirma qué contrato opera él).",
+      "control": "APROBADO por control de calidad 27/11/2026"
+    },
+    {
+      "id": "t4-03-fondeo-o-propia",
+      "fecha": "2026-12-03",
+      "hora": "20:30",
+      "tema": "Cuentas de fondeo",
+      "partes": [
+        "Para arrancar: ¿cuenta de fondeo o plata propia? No es el mismo riesgo.\n\nCon una evaluación de fondeo arriesgás lo que pagaste por ella, no tus ahorros. A cambio operás con reglas de otro y con la pérdida máxima muy cerca.\n\nCon plata propia las reglas las ponés vos. Y la plata que se va también es tuya.\n\nNo hay una respuesta que sirva para todos. Lo que sí hay que saber es qué estás eligiendo.\n\n¿Vos con cuál empezaste? ¿Lo volverías a hacer igual?"
+      ],
+      "por_que_trae_gente": "Tipo: postura para discutir. \"Cuentas de fondeo vs capital propio\" aparece en el autocompletado de YouTube y fondeo es el tema con más demanda medida (197 a 209 mil vistas). Dos bandos + pregunta que invita a contar la experiencia propia (respuestas largas).",
+      "fuente": "\"Si la quemás, perdés lo que pagaste, no tus ahorros\" y la pérdida máxima como regla central: carruseles/semana2.py (s2-3-miercoles). Fondeo = pérdida máxima cerca: memoria feedback_profe_trader_trader_no_apostador (25/11). Búsqueda: investigacion/2026-11-23/autocompletar.json. Demanda: youtube/guiones-youtube.html (investigación 23/11). Sin datos del fundador ni recomendación.",
+      "control": "APROBADO por control de calidad 27/11/2026"
+    },
+    {
+      "id": "t4-04-dato-de-empleo",
+      "fecha": "2026-12-04",
+      "hora": "09:00",
+      "tema": "Trading",
+      "partes": [
+        "Hoy a las 10:30 de Argentina sale el informe de empleo de Estados Unidos. Una hora antes de que abra la bolsa de Nueva York.\n\nSi estás empezando: sale una vez por mes, siempre a esa hora de allá (8:30 de Nueva York), y es de los datos que más se siguen.\n\nNo te digo qué hacer con eso. Te digo que conviene saberlo antes de sentarte, no enterarte por una vela enorme.\n\n¿Vos mirás el calendario de noticias antes de abrir la plataforma? ¿Dónde lo mirás?"
+      ],
+      "por_que_trae_gente": "Tipo: explicación simple y oportuna para el que arranca. Sale el mismo día del dato, cuando el que opera lo está buscando. Dato útil con hora en Argentina + pregunta doble fácil (sí o no, y dónde).",
+      "fuente": "Fecha y hora: calendario oficial de la Oficina de Estadísticas Laborales de Estados Unidos (bls.gov/schedule/2026/12_sched_list.htm): informe de empleo de noviembre, viernes 4/12/2026, 8:30 de Nueva York = 10:30 de Argentina. Apertura de Nueva York 11:30 de Argentina: carruseles/semana4.py (s4-12-sabado). \"De los datos que más se siguen\" es conocimiento general del mercado, sin número. Sin datos del fundador. A COMPROBAR el 3/12: que la fecha no haya cambiado en el calendario oficial.",
+      "control": "APROBADO por control de calidad 27/11/2026"
+    },
+    {
+      "id": "t4-05-arreglar-la-semana",
+      "fecha": "2026-12-04",
+      "hora": "13:00",
+      "tema": "Psicotrading",
+      "partes": [
+        "Viernes. Día de querer arreglar la semana en un solo trade.\n\nVenís abajo, quedan pocas horas y aparece la idea: \"con uno bueno la cierro en verde\".\n\nEse trade ya no lo elige el gráfico. Lo elige el número que querés ver esta noche.\n\nY un trade apurado a última hora puede empeorar la semana mucho más de lo que la arregla.\n\n¿Te pasó de querer cerrar la semana en verde a la fuerza? ¿Cómo terminó?"
+      ],
+      "por_que_trae_gente": "Tipo: idea de psicotrading. Oportuno (viernes) y dicho con la frase que el trader se dice a sí mismo. Identificación (\"a mí me pasó\") + pregunta que pide una historia corta.",
+      "fuente": "Sin datos del fundador: es una opinión. Se apoya en lo ya publicado sobre entrar por recuperar (carruseles/semana4.py, s4-29-domingo: \"por aburrimiento, por recuperar, por sentir que hiciste algo\") y en la lista de errores del público (\"no tener paciencia\", \"no respetar la pérdida diaria\": youtube/guiones-youtube.html (investigación 23/11), sección Quién comenta).",
+      "control": "APROBADO por control de calidad 27/11/2026"
+    },
+    {
+      "id": "t4-06-dos-numeros",
+      "fecha": "2026-12-04",
+      "hora": "20:30",
+      "tema": "Trading",
+      "partes": [
+        "Cierre de semana. No me digas cuánta plata hiciste.\n\nDecime dos números:\ntrades que hiciste / trades en los que el stop quedó donde lo habías puesto antes de entrar.\n\nEjemplo: 6/5.\n\nSi los dos números son iguales, hiciste bien tu trabajo, haya terminado en verde o en rojo.\n\nY si no entraste en toda la semana porque no apareció tu setup, poné 0/0. También cuenta.\n\n¿Cuál es el tuyo?"
+      ],
+      "por_que_trae_gente": "Tipo: pregunta a la comunidad. Respuesta de dos números (muy barata de dar) y sin mostrar plata, que es lo que el público dice que sobra en redes. Puede repetirse cada viernes como costumbre de la cuenta.",
+      "fuente": "Sin números del fundador. Criterio de medir el proceso y no la plata, y de contar el stop movido como falla: planilla del viernes (publicador/planilla.py; memoria project_marca_trading_referente, 20/11) y carrusel 5-viernes (carruseles/semana1.py). Queja del público \"solo muestran las ganancias\": youtube/guiones-youtube.html (investigación 23/11).",
+      "control": "APROBADO por control de calidad 27/11/2026"
+    },
+    {
+      "id": "t4-08-fin-de-semana",
+      "fecha": "2026-12-05",
+      "hora": "13:00",
+      "tema": "Trading",
+      "partes": [
+        "Sábado. El mercado de futuros cerró ayer a las 19 y no abre hasta mañana a las 20.\n\nY aun así hay gente con el gráfico abierto.\n\nPregunta para los que operan: ¿qué hacés con el trading el fin de semana?\n\nA) Repaso los trades de la semana.\nB) Estudio o pruebo cosas.\nC) No toco nada hasta el lunes.\n\nDecime la letra. Y si es la A, contame qué mirás primero."
+      ],
+      "por_que_trae_gente": "Tipo: pregunta a la comunidad. Tres opciones con letra (respuesta de una tecla) en un día de poco movimiento. Toca un error que el propio público nombra: \"abrir el gráfico por la noche\".",
+      "fuente": "Horario: CME Group, futuros del S&P 500 de domingo 17:00 a viernes 16:00 de Chicago = domingo 20:00 a viernes 19:00 de Argentina con Estados Unidos en horario de invierno (carruseles/semana4.py, s4-12-sabado; página de especificaciones del contrato en cmegroup.com). \"Abrir el gráfico por la noche\": lista de errores de un comentario, youtube/guiones-youtube.html (investigación 23/11). Sin datos del fundador.",
+      "control": "APROBADO por control de calidad 27/11/2026"
+    },
+    {
+      "id": "t4-09-dejar-o-cansado",
+      "fecha": "2026-12-05",
+      "hora": "20:00",
+      "tema": "Psicotrading",
+      "partes": [
+        "No es lo mismo querer dejar el trading que estar cansado de perder sin saber por qué.\n\nLo primero es una decisión de vida y es tuya.\n\nLo segundo se puede mirar: agarrá tus últimos 20 trades y marcá en cuántos entraste por tu plan y en cuántos por otra cosa. Recién ahí sabés qué es lo que querés dejar.\n\nPara los que alguna vez estuvieron a punto de largar todo: ¿qué fue lo que te hizo seguir?"
+      ],
+      "por_que_trae_gente": "Tipo: idea de psicotrading. \"Dejar el trading\" y \"antes de dejar el trading\" son búsquedas reales, con videos de 50 mil y 19 mil vistas; el público escribe \"estaba a punto de rajarme y dejar el trading\". Pregunta que pide una historia: respuestas largas y que otros leen.",
+      "fuente": "Sin datos del fundador (no se cuenta su historia). Búsquedas: investigacion/2026-11-23/autocompletar-2.json. Vistas y comentario textual del público: youtube/guiones-youtube.html (investigación 23/11), guion 6 y sección Quién comenta. El ejercicio de los 20 trades es una propuesta de la pieza, no un resultado medido.",
+      "control": "APROBADO por control de calidad 27/11/2026"
+    },
+    {
+      "id": "t4-10-maximo-por-dia",
+      "fecha": "2026-12-06",
+      "hora": "10:30",
+      "tema": "Trading",
+      "partes": [
+        "¿Tenés un máximo de trades por día, o parás cuando ya no queda nada para perder?\n\nNo es una regla para vos: depende de cómo operás. Pero ese número conviene tenerlo escrito antes de abrir, no decidirlo después del segundo stop.\n\n¿Cuál es tu máximo por día? Decime el número. Y si no tenés, poné \"no tengo\"."
+      ],
+      "por_que_trae_gente": "Tipo: pregunta a la comunidad. \"Sobreoperar\" es búsqueda con demanda (videos de 26 mil y 18 mil vistas). Dato propio corto como prueba + respuesta de un número, con salida para el que no tiene (\"no tengo\"), que también comenta.",
+      "fuente": "14 trades en 13 días operados entre el 21/10 y el 20/11, máximo 2 en un día (29/10): diario real, carruseles/semana4.py (s4-29-domingo, comentario de datos y lámina \"14 trades. Nunca más de 2 en un día\"). Se presenta como dato, no como regla suya. Demanda: youtube/guiones-youtube.html (investigación 23/11), guion 3.",
+      "control": "APROBADO por control de calidad 27/11/2026 (con cambios aplicados)"
+    },
+    {
+      "id": "t4-11-meses-en-rojo",
+      "fecha": "2026-12-06",
+      "hora": "13:00",
+      "tema": "Psicotrading",
+      "partes": [
+        "Un trader rentable también cierra meses en rojo. La cuenta:\n\nAcertás 4 de cada 10 y ganás el doble de lo que arriesgás. Sostenido en el tiempo y sin contar comisiones, eso da positivo.\n\nCon 20 trades por mes, la chance de cerrar un mes en negativo es 25%. Uno de cada cuatro.\n\nCon 60 trades baja a 12%.\n\nPor eso un mes malo no te dice si servís para esto. Y por eso en fondeo, si ya sos rentable, lo que necesitás es tiempo.\n\n¿Cuántos meses seguidos en rojo aguantarías sin cambiar de estrategia?"
+      ],
+      "por_que_trae_gente": "Tipo: idea de psicotrading con una cuenta. Sorpresa (rentable y en rojo 1 de cada 4 meses) + utilidad que se guarda + la idea de fondo de la marca (el fondeo se gana con tiempo). Calca el ángulo que más rinde en la búsqueda \"cómo pasar cuentas de fondeo usando matemáticas\" (video de 64 mil vistas).",
+      "fuente": "Cálculo exacto (binomial, trades independientes, sin comisiones) documentado en threads/calculos-posteos-2026-12-03-al-09.py: con 40% de acierto y 2R por ganador, 20 trades terminan en negativo con 6 ganados o menos = 25,0%; 60 trades, con 19 o menos = 11,7% (redondeado a 12%). No es un dato del fundador. \"En fondeo, si sos rentable, lo que importa es el tiempo\": pedido del fundador del 25/11 (memoria feedback_profe_trader_trader_no_apostador). Búsqueda: investigacion/2026-11-23/autocompletar.json. 64 mil vistas: competencia/2026-11-22-interaccion.md.",
+      "control": "APROBADO por control de calidad 27/11/2026 (con cambios aplicados)"
+    },
+    {
+      "id": "t4-12-abre-el-domingo",
+      "fecha": "2026-12-06",
+      "hora": "20:00",
+      "tema": "Futuros",
+      "partes": [
+        "Domingo, 20:00 de Argentina. En este momento está abriendo el mercado de futuros de Chicago.\n\nSí, un domingo a la noche.\n\nLos futuros del S&P 500 operan desde ahora hasta el viernes a las 19, casi las 24 horas, con una pausa de una hora por día (de 19 a 20).\n\nUna cosa es que esté abierto y otra que se mueva: uno de los momentos con más movimiento es la apertura de Nueva York, a las 11:30.\n\n¿Sabías que abría el domingo? ¿Operaste de noche alguna vez?"
+      ],
+      "por_que_trae_gente": "Tipo: explicación simple para el que arranca. Oportuno al minuto (sale a la hora exacta de la apertura) + sorpresa para el que empieza. Búsquedas reales: \"futuros sp500 fin de semana\", \"sp500 futuros horario\", \"se puede hacer trading los fines de semana\".",
+      "fuente": "Horario de CME Group para los futuros del S&P 500: domingo 17:00 a viernes 16:00 de Chicago, con pausa diaria de 16 a 17 (página de especificaciones del contrato en cmegroup.com); en hora de Argentina con Estados Unidos en horario de invierno: carruseles/semana4.py (s4-12-sabado). Apertura de Nueva York 11:30 y \"el momento con más movimiento\": mismo carrusel. Búsquedas: investigacion/2026-11-23/autocompletar.json. Sin datos del fundador.",
+      "control": "APROBADO por control de calidad 27/11/2026 (con cambios aplicados)"
+    },
+    {
+      "id": "t4-13-tres-motivos",
+      "fecha": "2026-12-07",
+      "hora": "09:00",
+      "tema": "Psicotrading",
+      "partes": [
+        "Tres motivos para entrar a un trade que no están en ningún plan:\n\nAburrimiento: llevás dos horas mirando y no pasó nada.\nRecuperar: venís de un stop.\nSentir que hiciste algo: se termina el día y no entraste.\n\nNinguno de los tres mira el gráfico.\n\nAntes de abrir la plataforma escribo mi intención del día. La que más repetí en 16 días anotados: \"Operar solo lo que veo\". 8 veces.\n\n¿Cuál de los tres te costó más plata?"
+      ],
+      "por_que_trae_gente": "Tipo: idea de psicotrading. Lista corta en la que el lector se reconoce (lenguaje del propio público: sobreoperar, no tener paciencia) + frase textual del diario como prueba + pregunta de elección entre tres.",
+      "fuente": "Los tres motivos: lámina del carrusel s4-29-domingo (carruseles/semana4.py): \"por aburrimiento, por recuperar, por sentir que hiciste algo\". Intención más repetida \"Operar solo lo que veo\", 8 días sobre 16 días con datos (21/10 al 20/11): comentario de datos del diario en carruseles/semana4.py (bloque s4-15-martes). A COMPROBAR contra el diario: ese dato está solo en el comentario del archivo, no en una lámina publicada.",
+      "control": "APROBADO por control de calidad 27/11/2026"
+    },
+    {
+      "id": "t4-14-el-piso-sube",
+      "fecha": "2026-12-07",
+      "hora": "13:00",
+      "tema": "Cuentas de fondeo",
+      "partes": [
+        "Antes de pagar una evaluación de fondeo, entendé esta regla: la pérdida máxima que te sigue. En los reglamentos figura como \"trailing drawdown\".\n\nEjemplo para entenderlo: cuenta de 25.000, pérdida máxima de 1.000. El piso arranca en 24.000.\n\nCerrás un día en 25.600: el piso sube a 24.600.\n\nGanaste 600 y tu margen sigue siendo 1.000. Ganar no te da más aire.\n\nCada firma lo calcula distinto. ¿La tuya cómo lo hace: al cierre del día o en el momento?"
+      ],
+      "por_que_trae_gente": "Tipo: explicación simple para el que arranca en fondeo. Responde búsquedas literales de Google: \"que es el drawdown en cuentas de fondeo\" y \"trailing drawdown que es\". Ejemplo con números que se guarda + pregunta de dos opciones para el que ya está en una firma.",
+      "fuente": "Ejemplo didáctico (25.000, pérdida máxima 1.000, piso 24.000 que pasa a 24.600 al cerrar en 25.600): carruseles/semana2.py (s2-3-miercoles), repetido en threads/calculos-posteos-2026-12-03-al-09.py. No son números de su cuenta ni de una firma. Búsquedas: investigacion/2026-11-23/autocompletar.json y autocompletar-2.json. \"Trailing drawdown\" va una sola vez, entre comillas, porque es la palabra que el lector va a encontrar en el reglamento y la que escribe en el buscador.",
+      "control": "APROBADO por control de calidad 27/11/2026"
+    },
+    {
+      "id": "t4-15-estafa-o-negocio",
+      "fecha": "2026-12-07",
+      "hora": "20:30",
+      "tema": "Cuentas de fondeo",
+      "partes": [
+        "YouTube sugiere buscar \"cuentas de fondeo estafa\". No estoy de acuerdo.\n\nEs un negocio con reglas: la firma cobra la evaluación y eso es lo que arriesgás.\n\nQuemar una cuenta le pasa a todos, también al que es rentable: la pérdida máxima está cerca y las rachas existen. Por eso, si ya sos rentable, lo que importa es el tiempo.\n\nEl problema es otro: comprar una evaluación atrás de otra para recuperar la anterior. Eso ya no es operar. Somos traders, no apostadores.\n\n¿Qué pensás hoy del fondeo?"
+      ],
+      "por_que_trae_gente": "Tipo: postura para discutir. Entra por una búsqueda con demanda probada (videos de 207 mil y 81 mil vistas sobre si el fondeo es estafa) y toma partido sin vender ninguna firma, que es lo que el público castiga. Marca la diferencia central de la marca: traders, no apostadores.",
+      "fuente": "\"Cuentas de fondeo estafa\" aparece en 9 de las listas de sugerencias de YouTube medidas el 23/11 (no hay volumen exacto de búsquedas): investigacion/2026-11-23/autocompletar.json. Vistas 207 mil y 81 mil: youtube/guiones-youtube.html (investigación 23/11), tabla de demanda. \"La firma cobra la evaluación; si la quemás perdés eso\": carruseles/semana2.py (s2-3-miercoles). Cuenta quemada = le pasa a todos, también a los rentables; pérdida máxima cerca; \"somos traders, no apostadores\": pedido textual del fundador del 25/11 (memoria feedback_profe_trader_trader_no_apostador). No se cuenta la cuenta de él (corrección del 26/11) ni se nombra firma.",
+      "control": "APROBADO por control de calidad 27/11/2026 (con cambios aplicados)"
+    },
+    {
+      "id": "t4-16-feriado-aca",
+      "fecha": "2026-12-08",
+      "hora": "09:00",
+      "tema": "Futuros",
+      "partes": [
+        "Feriado en Argentina. En Chicago es un martes cualquiera.\n\nPara el que está empezando: los futuros del S&P 500 siguen el calendario de Estados Unidos, no el nuestro. Hoy la bolsa de Nueva York abre a las 11:30 de Argentina, igual que ayer.\n\nAl revés también pasa: hay días hábiles acá en los que allá es feriado y el mercado tiene horario especial.\n\n¿Qué hacés los feriados de acá: operás como cualquier día o aprovechás para cortar?"
+      ],
+      "por_que_trae_gente": "Tipo: explicación simple y oportuna para el que arranca. Sale el mismo día del feriado, cuando el que empieza se pregunta si hay mercado. Pregunta de dos opciones que contesta cualquiera de Argentina.",
+      "fuente": "8 de diciembre, feriado nacional inamovible en Argentina (Inmaculada Concepción, Ley 27.399; calendario 2026 publicado por Chequeado y El Cronista, con el lunes 7/12 como día no laborable). El 8 de diciembre no es feriado federal en Estados Unidos; horarios especiales en feriados de Estados Unidos: calendario de feriados de CME (carruseles/semana4.py, s4-20-domingo). Apertura 11:30: s4-12-sabado. Sin datos del fundador. A COMPROBAR: calendario oficial en argentina.gob.ar y calendario de feriados de CME.",
+      "control": "APROBADO por control de calidad 27/11/2026 (con cambios aplicados)"
+    },
+    {
+      "id": "t4-17-sumar-en-contra",
+      "fecha": "2026-12-08",
+      "hora": "13:00",
+      "tema": "Trading",
+      "partes": [
+        "Sumar contratos cuando el trade va en contra tiene un nombre amable: \"buscar mejor precio\". La cuenta dice otra cosa.\n\nLa cuenta: entrás con 1 contrato y el stop a 10 puntos. El precio va 5 en contra y sumás otro, con el mismo stop.\n\nSi lo toca, perdés 10 + 5 = 15 puntos. Un 50% más de lo que habías aceptado perder antes de entrar.\n\nY lo decidiste adentro del trade, que es cuando peor se decide.\n\n¿Sumaste en contra alguna vez? ¿Te salvó o te hundió?"
+      ],
+      "por_que_trae_gente": "Tipo: técnica con postura discutible (hay quien lo defiende, por eso se comenta). Usa las palabras de la lista de errores del público: \"buscar un mejor punto de entrada sumando riesgo\". Búsqueda real: \"cómo promediar en trading futuros\". Cuenta simple que se guarda.",
+      "fuente": "Cuenta (10 + 5 = 15 puntos, 50% más): threads/calculos-posteos-2026-12-03-al-09.py; ejemplo didáctico, no es un trade de él. Error textual del público: youtube/guiones-youtube.html (investigación 23/11), sección Quién comenta. Búsqueda: investigacion/2026-11-23/autocompletar.json. \"Adentro del trade sos otra persona; el stop se decide afuera\": carrusel 4-jueves (carruseles/semana1.py). Sin datos del fundador.",
+      "control": "APROBADO por control de calidad 27/11/2026 (con cambios aplicados)"
+    },
+    {
+      "id": "t4-18-simulador",
+      "fecha": "2026-12-08",
+      "hora": "20:30",
+      "tema": "Trading",
+      "partes": [
+        "Pregunta doble, para los dos lados del mostrador.\n\nSi ya operás con plata (propia o de fondeo): ¿cuánto tiempo estuviste en simulador antes?\n\nSi hoy estás en simulador: ¿qué estás esperando ver para dar el paso?\n\nNo hay respuesta correcta. Quiero ver cuánto se parece lo que hicieron los que ya pasaron con lo que esperan los que están por pasar.\n\nRespondé con el tiempo (semanas, meses) o con lo que estás esperando."
+      ],
+      "por_que_trae_gente": "Tipo: pregunta a la comunidad. Le habla a los dos públicos de la cuenta a la vez (el que empieza y el que ya opera) y hace que se lean entre ellos. Búsqueda real del que empieza: \"ninjatrader cuenta demo\", \"trading desde cero\".",
+      "fuente": "Sin datos del fundador (cuánto practicó él en simulador no está escrito en el proyecto: no se dice). Búsquedas: investigacion/2026-11-23/autocompletar.json.",
+      "control": "APROBADO por control de calidad 27/11/2026"
+    },
+    {
+      "id": "t4-19-dos-horarios",
+      "fecha": "2026-12-09",
+      "hora": "09:00",
+      "tema": "Trading",
+      "partes": [
+        "Hoy la Reserva Federal de Estados Unidos anuncia la tasa de interés. Si estás empezando, anotá los dos horarios, en hora de Argentina:\n\n16:00: sale el comunicado con la decisión.\n16:30: empieza la conferencia de prensa.\n\nSon dos momentos distintos y el mercado mira los dos.\n\nNo es una señal ni una recomendación: es el calendario.\n\nSi sos nuevo: ¿sabías que hoy había anuncio, o te ibas a enterar por el gráfico?"
+      ],
+      "por_que_trae_gente": "Tipo: explicación simple y oportuna para el que arranca. Sale el mismo día del anuncio. Ángulo nuevo respecto del posteo del 30/11 (que preguntaba si operar o no): acá son los dos horarios, que el principiante no conoce. Dato que se guarda + pregunta de dos opciones.",
+      "fuente": "Reunión del 8 y 9/12/2026, comunicado a las 14:00 y conferencia a las 14:30 de Washington = 16:00 y 16:30 de Argentina: calendario oficial de la Reserva Federal (federalreserve.gov/monetarypolicy/fomccalendars.htm) y carruseles/semana4.py (s4-07-lunes). Sin datos del fundador. A COMPROBAR el 8/12: que el horario no haya cambiado en el calendario oficial.",
+      "control": "APROBADO por control de calidad 27/11/2026"
+    },
+    {
+      "id": "t4-20-volver-al-mismo-lugar",
+      "fecha": "2026-12-09",
+      "hora": "13:00",
+      "tema": "Trading",
+      "partes": [
+        "La cuenta que explica por qué se cuida tanto la pérdida:\n\nPerdés 10% de la cuenta: necesitás ganar 11% para volver.\nPerdés 25%: necesitás 33%.\nPerdés 50%: necesitás 100%. El doble.\n\nCuanto más abajo estás, más tenés que ganar para volver al mismo lugar. Y con menos plata para hacerlo.\n\nPor eso el stop no es el enemigo: es lo que evita que esa cuenta se te vaya de las manos.\n\n¿Cuál fue tu peor caída y cuánto tardaste en volver?"
+      ],
+      "por_que_trae_gente": "Tipo: técnica (gestión del riesgo) para guardar. Tres renglones que sorprenden al que empieza (perder la mitad obliga a duplicar). Búsquedas reales: \"gestion de riesgo trading\", \"cuanto debo arriesgar en el trading\". Pregunta que pide una historia propia.",
+      "fuente": "Cálculo exacto: caída c obliga a ganar c ÷ (1 − c): 10% → 11,1%; 25% → 33,3%; 50% → 100%. Documentado en threads/calculos-posteos-2026-12-03-al-09.py. No es un dato del fundador. Búsquedas: investigacion/2026-11-23/autocompletar.json.",
+      "control": "APROBADO por control de calidad 27/11/2026"
+    },
+    {
+      "id": "t4-21-lo-que-habias-decidido",
+      "fecha": "2026-12-09",
+      "hora": "20:30",
+      "tema": "Psicotrading",
+      "partes": [
+        "Ya pasó el anuncio de la Reserva Federal.\n\nNo me digas si ganaste o perdiste. Decime otra cosa: ¿hiciste lo que habías decidido a la mañana?\n\nDijiste \"hoy no opero\" y no operaste: sí.\nDijiste \"entro después de la conferencia\" y esperaste: sí.\nDijiste \"me quedo afuera\" y a las 16:05 estabas adentro: no.\n\nSí o no. Y si fue no, contame qué te hizo cambiar."
+      ],
+      "por_que_trae_gente": "Tipo: pregunta a la comunidad. Oportuno (la noche del anuncio todos tienen algo para contar) y cambia la pregunta de siempre (\"¿ganaste?\") por una de proceso. Respuesta de una palabra, con invitación a contar más.",
+      "fuente": "Fecha y hora del anuncio: calendario oficial de la Reserva Federal (ver t4-19). Criterio de decidirlo antes y no a las 16:01: carrusel s4-07-lunes (carruseles/semana4.py). Sin datos del fundador: no se dice qué hizo él ese día (eso sale, si corresponde, en su operativa de las 19:00).",
+      "control": "APROBADO por control de calidad 27/11/2026"
     }
   ]
 }

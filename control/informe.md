@@ -1,3 +1,7 @@
+### 2026-11-27 15:22 ART
+- Instagram revisado / OK (5-viernes vence 19:00)
+- Threads revisado / OK (t3-04 vence 20:30)
+
 ### 2026-11-27 14:20 ART
 - Instagram revisado / OK (ayer y v07-muestra publicados; 5-viernes vence 19:00)
 - Threads revisado / OK (t3-03 publicado; t3-04 vence 20:30)
@@ -112,9 +116,5 @@
 
 ### 2026-11-25 16:20 ART
 - Instagram revisado / OK (v05-acierto publicado; carrusel 3-miercoles aún no es su hora, 19:00)
-- Threads revisado / OK (t00, t02 y t04 publicados; op-2026-11-25 es a las 19:00)
-
-### 2026-11-25 15:20 ART
-- Instagram revisado / OK (v05-acierto y reel publicados; carrusel 3-miercoles aún no es su hora, 19:00)
 - Threads revisado / OK (t00, t02 y t04 publicados; op-2026-11-25 es a las 19:00)
 

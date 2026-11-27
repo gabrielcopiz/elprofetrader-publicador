@@ -118,16 +118,40 @@
   "laminas": 7
  },
  {
+  "fecha": "2026-12-01",
+  "carpeta": "reels",
+  "id": "p3-desafio-que-haces",
+  "tipo": "reel",
+  "portada": true,
+  "audio_id": "2216897672479559"
+ },
+ {
   "fecha": "2026-12-02",
   "carpeta": "semana2",
   "id": "s2-3-miercoles",
   "laminas": 7
  },
  {
+  "fecha": "2026-12-02",
+  "carpeta": "reels",
+  "id": "p4-respuesta-orden",
+  "tipo": "reel",
+  "portada": true,
+  "audio_id": "723032787546972"
+ },
+ {
   "fecha": "2026-12-03",
   "carpeta": "semana2",
   "id": "s2-4-jueves",
   "laminas": 7
+ },
+ {
+  "fecha": "2026-12-03",
+  "carpeta": "reels",
+  "id": "p2-barras-de-contratos",
+  "tipo": "reel",
+  "portada": true,
+  "audio_id": "530091372702980"
  },
  {
   "fecha": "2026-12-05",

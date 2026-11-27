@@ -1,0 +1,18 @@
+Mi gráfico no tiene reloj.
+
+En un gráfico de 1 minuto nace una vela cada 60 segundos, pase lo que pase. En el mío, la barra se cierra cuando se negocia una cantidad fija de contratos:
+→ MES: 477 contratos por barra
+→ ES: 610 contratos por barra
+(Opero los dos; elijo según el riesgo de cada trade.)
+
+¿Cómo se nota? Mirá las horas del eje en el video: la misma distancia a veces son 3 minutos y a veces 8. Con mucho volumen salen muchas barras; con poco, pocas.
+
+Es mi pantalla real, grabada el 23/11. El gráfico de 1 minuto del ES aparece solo para comparar.
+
+Guardalo si recién estás conociendo los gráficos que no son de tiempo.
+
+Si querés ver trading real, grabado en pantalla y sin señales, seguí a @elprofetrader.
+
+Mi diario, no una recomendación.
+
+#trading #futuros #tradingdesdecero #daytrading #sp500 #tradingargentina

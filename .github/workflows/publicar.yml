@@ -72,7 +72,7 @@ jobs:
             git config user.name "publicador"
             git config user.email "publicador@users.noreply.github.com"
             git add publicaciones agenda.json
-            if ! git diff --cached --quiet; then git commit -m "Planilla del viernes" && git push && sleep 60; fi
+            if ! git diff --cached --quiet; then git commit -m "Planilla del viernes" && git pull --rebase -q && git push && sleep 60; fi
           else
             echo "No toca planilla"
           fi
@@ -87,4 +87,4 @@ jobs:
           git config user.name "publicador"
           git config user.email "publicador@users.noreply.github.com"
           git add publicado.json
-          git diff --cached --quiet || (git commit -m "Registro de publicación" && git push)
+          git diff --cached --quiet || (git commit -m "Registro de publicación" && git pull --rebase -q && git push)

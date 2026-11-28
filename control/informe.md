@@ -1,3 +1,7 @@
+### 2026-11-27 22:20 ART
+- Instagram: revisado, OK (todo lo de hoy y ayer publicado; lo del 28/11 todavía no corresponde)
+- Threads: revisado, OK (todo lo de hoy y ayer publicado; lo del 28/11 todavía no corresponde)
+
 ### 2026-11-27 21:21 ART
 - Instagram: revisado, OK (5-viernes y v07-muestra publicados; lo del 28/11 todavía no corresponde)
 - Threads: revisado, OK (t3-04 y op-2026-11-27 publicados; lo del 28/11 todavía no corresponde)
@@ -113,8 +117,4 @@
 ### 2026-11-25 20:20 ART
 - Instagram revisado: OK (nada faltaba)
 - Threads revisado: OK (nada faltaba)
-
-### 2026-11-25 19:21 ART
-- Instagram revisado / OK (carrusel 3-miercoles, v05-acierto y t02-trade-25nov publicados)
-- Threads revisado / OK (t02, op-2026-11-25, t00 y t04 publicados; nada pendiente)
 

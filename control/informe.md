@@ -1,3 +1,7 @@
+### 2026-11-28 09:20 ART
+- Instagram revisado / OK (lo de ayer publicado; lo de hoy aún no vence: reel 12:30, carrusel 19:00)
+- Threads revisado / OK (lo de ayer publicado; t05 sale a las 10:30, aún no vence)
+
 ### 2026-11-27 23:20 ART
 - Instagram: revisado, OK (todo lo de hoy y ayer publicado)
 - Threads: revisado, OK (todo lo de hoy y ayer publicado)
@@ -113,8 +117,4 @@
 ### 2026-11-25 22:21 ART
 - Instagram revisado / OK (nada faltaba; lo de hoy y ayer está publicado)
 - Threads revisado / OK (nada faltaba; lo restante es de fechas futuras)
-
-### 2026-11-25 21:20 ART
-- Instagram revisado / OK (nada faltaba)
-- Threads revisado / OK (nada faltaba)
 

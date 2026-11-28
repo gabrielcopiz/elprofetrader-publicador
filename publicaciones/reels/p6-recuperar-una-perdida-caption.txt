@@ -1,0 +1,19 @@
+Perdés la mitad. Para volver necesitás el doble.
+
+No es la misma cuenta para bajar que para subir:
+→ Perdés 10 %: necesitás ganar 11,1 %
+→ Perdés 20 %: necesitás ganar 25 %
+→ Perdés 33,3 %: necesitás ganar 50 %
+→ Perdés 50 %: necesitás ganar 100 %
+
+La fórmula: ganancia necesaria = pérdida ÷ (1 − pérdida).
+
+Cuanto más grande la pérdida, más cuesta volver. Por eso el stop se decide antes de entrar.
+
+Guardalo: es una cuenta que conviene tener a mano.
+
+Y si querés más cuentas como esta, seguí a @elprofetrader.
+
+Educativo, no es una recomendación.
+
+#trading #futuros #gestionderiesgo #tradingdesdecero #stoploss #daytrading #tradingargentina

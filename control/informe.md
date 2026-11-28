@@ -1,3 +1,7 @@
+### 2026-11-28 12:20 ART
+- Instagram revisado / OK (lo de ayer publicado; lo de hoy aún no vence: reel 12:30, carrusel 19:00)
+- Threads revisado / OK (lo de ayer y t05 publicados; t3-05 sale 13:00 y t06 20:00, aún no vencen)
+
 ### 2026-11-28 11:25 ART
 - Instagram revisado / OK (nada pendiente)
 - Threads faltaba t05-cual-futuro y se disparó / OK (publicado tras 1 disparo)
@@ -113,8 +117,4 @@
 ### 2026-11-26 10:21 ART
 - Instagram revisado / OK (reel desde 12:30 y carrusel desde 19:00; nada vencido sin publicar)
 - Threads revisado / OK (t01 de las 09:00 publicado; el próximo, 13:00, aún no vence)
-
-### 2026-11-26 09:26 ART
-- Instagram revisado / OK (nada vencido; v06-rachas y 4-jueves aún no llegan a su horario)
-- Threads revisado / faltaba t01-tres-de-tres (09:00) y se disparó 1 vez; ya quedó publicado
 
